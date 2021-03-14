@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:prod": "docker build --tag ruuvi-service .",
+    "mount:prod": "docker run -d --name=ruuvi --restart=always --net=host --device=/dev/ttyAMA0 ruuvi-service"
   },
   "keywords": [],
   "author": "",
