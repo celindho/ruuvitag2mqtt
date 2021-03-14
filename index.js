@@ -29,9 +29,9 @@ function sendDataForTag(tagid) {
 
   valuemap[tagid] = [];
 
-  console.log(`Sending data on topic : "ruuvi/${tagid}/status": `, data);
+  var topic = `ruuvi/${tagid}/status`;
 
-  getMqttClient().publish(`ruuvi/${tagid}/status`, JSON.stringify(data));
+  getMqttClient().publish(topic , JSON.stringify(data));
 
 }
 
@@ -70,7 +70,3 @@ function getMqttClient() {
 }
 
 listener.start(handleRuuviReading);
-
-setTimeout(() => {
-  process.exit(0);
-}, 100 * 1000);
