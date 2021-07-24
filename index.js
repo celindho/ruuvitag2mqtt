@@ -68,11 +68,12 @@ function getMqttClient() {
     console.info("MQTT connected.");
   }
   if (!mqtt_client.connected) {
-    console.info("MQTT reconnecting.)")
+    console.info("MQTT reconnecting.")
     mqtt_client.reconnect();
     console.info("MQTT reconnected.");
   }
   return mqtt_client;
 }
 
+console.log("Starting the Ruuvi2MQTT converter.");
 listener.start(handleRuuviReading);
