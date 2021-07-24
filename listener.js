@@ -4,6 +4,7 @@ const ruuvi = require('node-ruuvitag');
 
 function start(dataCallback) {
     ruuvi.on('found', tag => {
+        console.log("Found tag: " + JSON.stringify(tag));
         tag.on('updated', data => {
             dataCallback(convertIdToMac(tag.id), data);
         });
