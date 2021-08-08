@@ -1,9 +1,10 @@
 "use strict";
 
 const listener = require('./listener');
-const mqtt = require('mqtt');
 
-var mqtt_client;
+const mqtt = require("./mqtt");
+
+const logger = require("./globals").logger;
 
 const entiresToAggregate = 25;
 
@@ -31,7 +32,7 @@ function sendDataForTag(tagid) {
 
   var topic = `ruuvi/${tagid}/status`;
 
-  getMqttClient().publish(topic , JSON.stringify(data));
+  mqtt.publish(topic , JSON.stringify(data));
 
 }
 
@@ -59,21 +60,6 @@ function getAveragedDataForTag(tagid) {
   };
 }
 
-function getMqttClient() {
-  if (!mqtt_client) {
-    var mqtt_host = "localhost";
-    var mqtt_port = 1883;
-    console.info("MQTT connecting to %s:%d.", mqtt_host, mqtt_port);
-    mqtt_client = mqtt.connect({ host: mqtt_host, port: mqtt_port, connectTimeout: 60 * 1000 });
-    console.info("MQTT connected.");
-  }
-  if (!mqtt_client.connected) {
-    console.info("MQTT reconnecting.")
-    mqtt_client.reconnect();
-    console.info("MQTT reconnected.");
-  }
-  return mqtt_client;
-}
 
-console.log("Starting the Ruuvi2MQTT converter.");
+logger.info("Starting the Ruuvi2MQTT converter.");
 listener.start(handleRuuviReading);

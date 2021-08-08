@@ -2,16 +2,18 @@
 
 const ruuvi = require('node-ruuvitag');
 
+const logger = require("./globals").logger;
+
 function start(dataCallback) {
     ruuvi.on('found', tag => {
-        console.log("Found tag: " + JSON.stringify(tag));
+        logger.info("Found tag: " + JSON.stringify(tag));
         tag.on('updated', data => {
             dataCallback(convertIdToMac(tag.id), data);
         });
     });
 
     ruuvi.on('warning', message => {
-        console.error(new Error(message));
+        logger.error(new Error(message));
     });
 }
 
