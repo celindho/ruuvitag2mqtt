@@ -6,9 +6,7 @@ const logger = require("./globals").logger;
 var mqtt_client;
 
 function publish(topic, message) {
-
   mqtt_client.publish(topic, message);
-
 }
 
 function createMqttClient() {
@@ -18,7 +16,7 @@ function createMqttClient() {
     logger.info("MQTT connecting to %s:%d.", mqtt_host, mqtt_port);
     mqtt_client = mqtt.connect({ host: mqtt_host, port: mqtt_port, connectTimeout: 60 * 1000, clientId: "ruuvi2mqtt_"+Math.floor(Math.random()*1000) });
     mqtt_client.on("connect", () => {
-      logger.debug("MQTT connected to. %s:%d.", mqtt_host, mqtt_port);
+      logger.info("MQTT connected to. %s:%d.", mqtt_host, mqtt_port);
     });    
     mqtt_client.on("error", (e) => {
       logger.error("MQTT Error, exiting program: ", e.message);
