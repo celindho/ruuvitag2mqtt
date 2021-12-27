@@ -36,6 +36,39 @@ function sendDataForTag(tagid) {
 
 }
 
+function handleNewRuuviTag(mac, tag) {
+  sendDiscoveryForTag(mac, tag, 'hum',     'Humidity',    'humidity',    '%H', '{{ value_json.humidity }}');
+  sendDiscoveryForTag(mac, tag, 'temp',    'Temperature', 'temperature', '°C', '{{ value_json.temperature }}');
+  sendDiscoveryForTag(mac, tag, 'battery', 'Battery',     'battery',     '%',  '{{ (((value_json.battery / 1000) - 1.8) / (3.6 - 1.8) * 100) | round(0) | int}}', 'diagnostic');
+}
+
+function sendDiscoveryForTag(mac, tag, suffix, name, deviceClass, unitOfMeasurement, valueTemplate, entityCategory) {
+  var topic = `homeassistant/sensor/ruuvi_${tag.id}_${suffix}/config`;
+  var payload = {
+    "device": {
+      "connections": [ ["mac", mac]],
+      "identifiers": [`RuuviTag ${mac}`],
+      "manufacturer": "Ruuvi Innovations Ltd",
+      "model": "RuuviTag",
+      "name": `RuuviTag ${mac}`,
+      "via_device": "Docker Ruuvi Service"
+    },
+    "device_class": deviceClass,
+    "name": `RuuviTag ${mac} ${name}`,
+    "object_id": `ruuvi_${tag.id}_${suffix}`,
+    "unique_id": `sensor_mqtt_ruuvi_${tag.id}_${suffix}`,
+    "unit_of_measurement": unitOfMeasurement,
+    "state_topic": `ruuvi/${mac}/status`,
+    "value_template": valueTemplate
+  };
+  if(entityCategory) {
+    payload.entity_category = entityCategory
+  };
+
+  mqtt.publish(topic, JSON.stringify(payload));
+
+}
+
 function getAveragedDataForTag(tagid) {
   var history = valuemap[tagid];
 
@@ -62,4 +95,4 @@ function getAveragedDataForTag(tagid) {
 
 
 logger.info("Starting the Ruuvi2MQTT converter.");
-listener.start(handleRuuviReading);
+listener.start(handleRuuviReading, handleNewRuuviTag);

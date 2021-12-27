@@ -4,9 +4,10 @@ const ruuvi = require('node-ruuvitag');
 
 const logger = require("./globals").logger;
 
-function start(dataCallback) {
+function start(dataCallback, foundCallback) {
     ruuvi.on('found', tag => {
         logger.info("Found tag: " + JSON.stringify(tag));
+        if(foundCallback) {foundCallback(convertIdToMac(tag.id), tag);}
         tag.on('updated', data => {
             dataCallback(convertIdToMac(tag.id), data);
         });
