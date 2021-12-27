@@ -18,7 +18,6 @@ function handleRuuviReading(mac, tag, data) {
   valuemap[mac].push(data);
 
   if (valuemap[mac].length >= entiresToAggregate) {
-    handleRuuviTagDiscovery(mac, tag);
     sendDataForTag(mac);
   }
 
@@ -66,7 +65,7 @@ function sendDiscoveryForEntity(mac, tag, suffix, name, deviceClass, unitOfMeasu
     payload.entity_category = entityCategory
   };
 
-  mqtt.publish(topic, JSON.stringify(payload));
+  mqtt.publishRetain(topic, JSON.stringify(payload));
 
 }
 

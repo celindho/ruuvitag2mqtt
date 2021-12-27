@@ -5,8 +5,12 @@ const logger = require("./globals").logger;
 
 var mqtt_client;
 
-function publish(topic, message) {
-  mqtt_client.publish(topic, message);
+function publish(topic, message, options) {
+  mqtt_client.publish(topic, message, options);
+}
+
+function publishRetain(topic, message) {
+  mqtt_client.publish(topic, message, {retain: true});
 }
 
 function createMqttClient() {
@@ -28,5 +32,6 @@ function createMqttClient() {
 createMqttClient();
 
 module.exports = {
-  publish: publish
+  publish: publish,
+  publishRetain: publishRetain
 }
