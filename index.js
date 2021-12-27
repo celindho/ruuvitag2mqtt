@@ -10,39 +10,40 @@ const entiresToAggregate = 25;
 
 var valuemap = {};
 
-function handleRuuviReading(tagid, data) {
-  if (!valuemap[tagid]) {
-    valuemap[tagid] = [];
+function handleRuuviReading(mac, tag, data) {
+  if (!valuemap[mac]) {
+    valuemap[mac] = [];
   }
 
-  valuemap[tagid].push(data);
+  valuemap[mac].push(data);
 
-  if (valuemap[tagid].length >= entiresToAggregate) {
-    sendDataForTag(tagid);
+  if (valuemap[mac].length >= entiresToAggregate) {
+    handleRuuviTagDiscovery(mac, tag);
+    sendDataForTag(mac);
   }
 
 }
 
-function sendDataForTag(tagid) {
-  var history = valuemap[tagid];
+function sendDataForTag(mac) {
+  var history = valuemap[mac];
 
-  var data = getAveragedDataForTag(tagid);
+  var data = getAveragedDataForTag(mac);
 
-  valuemap[tagid] = [];
+  valuemap[mac] = [];
 
-  var topic = `ruuvi/${tagid}/status`;
+  var topic = `ruuvi/${mac}/status`;
 
   mqtt.publish(topic , JSON.stringify(data));
 
 }
 
-function handleNewRuuviTag(mac, tag) {
-  sendDiscoveryForTag(mac, tag, 'hum',     'Humidity',    'humidity',    '%H', '{{ value_json.humidity }}');
-  sendDiscoveryForTag(mac, tag, 'temp',    'Temperature', 'temperature', '°C', '{{ value_json.temperature }}');
-  sendDiscoveryForTag(mac, tag, 'battery', 'Battery',     'battery',     '%',  '{{ (((value_json.battery / 1000) - 1.8) / (3.6 - 1.8) * 100) | round(0) | int}}', 'diagnostic');
+function handleRuuviTagDiscovery(mac, tag) {
+  sendDiscoveryForEntity(mac, tag, 'hum',     'Humidity',    'humidity',    '%H', '{{ value_json.humidity }}');
+  sendDiscoveryForEntity(mac, tag, 'temp',    'Temperature', 'temperature', '°C', '{{ value_json.temperature }}');
+  sendDiscoveryForEntity(mac, tag, 'battery', 'Battery',     'battery',     '%',  '{{ (((value_json.battery / 1000) - 1.8) / (3.6 - 1.8) * 100) | round(0) | int}}', 'diagnostic');
 }
 
-function sendDiscoveryForTag(mac, tag, suffix, name, deviceClass, unitOfMeasurement, valueTemplate, entityCategory) {
+function sendDiscoveryForEntity(mac, tag, suffix, name, deviceClass, unitOfMeasurement, valueTemplate, entityCategory) {
   var topic = `homeassistant/sensor/ruuvi_${tag.id}_${suffix}/config`;
   var payload = {
     "device": {
@@ -95,4 +96,4 @@ function getAveragedDataForTag(tagid) {
 
 
 logger.info("Starting the Ruuvi2MQTT converter.");
-listener.start(handleRuuviReading, handleNewRuuviTag);
+listener.start(handleRuuviReading, handleRuuviTagDiscovery);
