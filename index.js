@@ -6,21 +6,48 @@ const mqtt = require("./mqtt");
 
 const logger = require("./globals").logger;
 
-const entiresToAggregate = 25;
+const entiresToAggregate = 100;
+const forceSendAfterSeconds = 2.5*60;
 
 var valuemap = {};
+var lastSendForMac = {};
 
 function handleRuuviReading(mac, tag, data) {
   if (!valuemap[mac]) {
-    valuemap[mac] = [];
+    reinitData(mac, true)
   }
 
   valuemap[mac].push(data);
 
-  if (valuemap[mac].length >= entiresToAggregate) {
+  if (enoughtData(mac) || dataIsOverdue(mac)) {
     sendDataForTag(mac);
   }
 
+}
+
+function reinitData(mac, isFirstInit) {
+  valuemap[mac] = [];
+  if(isFirstInit) {
+    //allow for only 15 second aggregation for the first sample from a tag
+    lastSendForMac[mac] = new Date(new Date().getTime() - forceSendAfterSeconds*1000 + 15*1000);
+  }
+  else {
+    //allow for normal amount of seconds of aggregation
+    lastSendForMac[mac] = new Date();
+  }
+}
+
+function enoughtData(mac) {
+  return valuemap[mac].length >= entiresToAggregate;
+}
+
+function dataIsOverdue(mac) {
+  if (valuemap[mac].length == 0) 
+    return false;
+
+  var ageOfDataInSeconds = (new Date() - lastSendForMac[mac]) / 1000;
+
+  return ageOfDataInSeconds > forceSendAfterSeconds;
 }
 
 function sendDataForTag(mac) {
@@ -28,7 +55,7 @@ function sendDataForTag(mac) {
 
   var data = getAveragedDataForTag(mac);
 
-  valuemap[mac] = [];
+  reinitData(mac)
 
   var topic = `ruuvi/${mac}/status`;
 
