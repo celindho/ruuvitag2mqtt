@@ -86,7 +86,8 @@ function sendDiscoveryForEntity(mac, tag, suffix, name, deviceClass, unitOfMeasu
     "unique_id": `sensor_mqtt_ruuvi_${tag.id}_${suffix}`,
     "unit_of_measurement": unitOfMeasurement,
     "state_topic": `ruuvi/${mac}/status`,
-    "value_template": valueTemplate
+    "value_template": valueTemplate,
+    "state_class": "measurement"
   };
   if(entityCategory) {
     payload.entity_category = entityCategory
