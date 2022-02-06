@@ -6,7 +6,7 @@ const listener = require('./listener');
 
 var values = [];
 
-listener.start((tagid, data) => values.push({ tagid: tagid, data: data }));
+listener.start((tagid, tag, data) => values.push({ tagid: tagid, tag: tag, data: data }));
 
 
 setTimeout(() => {

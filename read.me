@@ -1,2 +1,6 @@
 Build the docker image using
-> docker build -t ruuvi-service .
+> docker build -t ruuvi-service:latest .
+
+> docker build -t celindho/ruuvi2mqtt-service:latest .
+> cat docker-password.txt | docker login --username celindho --password-stdin
+> docker push celindho/ruuvi2mqtt-service:latest
