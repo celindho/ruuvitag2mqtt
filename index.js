@@ -1,13 +1,19 @@
 "use strict";
 
+const args = process.argv.slice(2);
+
+const mqtt_host = args[0] ?? "localhost";
+const mqtt_topic_prefix = args[1] ?? "ruuvi";
+const hass_autodiscovery = args[2] === "true";
+const hass_autodiscovery_topic_prefix = args[3] ?? "homeassistant";
+const maxEntriesToAggregate = args[4] || 100;
+const maxWaitSeconds = args[5] || 2.5 * 60;
+
+const dummy_listener = require("./dummy_listener");
 const listener = require("./listener");
 
-const mqtt = require("./mqtt");
-
+const mqtt = require("./mqtt")(mqtt_host, 1883);
 const logger = require("./globals").logger;
-
-const entiresToAggregate = 100;
-const forceSendAfterSeconds = 2.5 * 60;
 
 var valuemap = {};
 var lastSendForMac = {};
@@ -29,7 +35,7 @@ function reinitData(mac, isFirstInit) {
   if (isFirstInit) {
     //allow for only 15 second aggregation for the first sample from a tag
     lastSendForMac[mac] = new Date(
-      new Date().getTime() - forceSendAfterSeconds * 1000 + 15 * 1000
+      new Date().getTime() - maxWaitSeconds * 1000 + 15 * 1000
     );
   } else {
     //allow for normal amount of seconds of aggregation
@@ -38,7 +44,7 @@ function reinitData(mac, isFirstInit) {
 }
 
 function enoughtData(mac) {
-  return valuemap[mac].length >= entiresToAggregate;
+  return valuemap[mac].length >= maxEntriesToAggregate;
 }
 
 function dataIsOverdue(mac) {
@@ -46,50 +52,51 @@ function dataIsOverdue(mac) {
 
   var ageOfDataInSeconds = (new Date() - lastSendForMac[mac]) / 1000;
 
-  return ageOfDataInSeconds > forceSendAfterSeconds;
+  return ageOfDataInSeconds > maxWaitSeconds;
 }
 
 function sendDataForTag(mac) {
-  var history = valuemap[mac];
-
   var data = getAveragedDataForTag(mac);
-
-  reinitData(mac);
-
-  var topic = `ruuvi/${mac}/status`;
-
+  var topic = getTopicForMac(mac);
   mqtt.publish(topic, JSON.stringify(data));
+  reinitData(mac);
+}
+
+function getTopicForMac(mac) {
+  return `${mqtt_topic_prefix}/${mac}/status`;
 }
 
 function handleRuuviTagDiscovery(mac, tag) {
-  sendDiscoveryForEntity(
-    mac,
-    tag,
-    "hum",
-    "Humidity",
-    "humidity",
-    "%H",
-    "{{ value_json.humidity }}"
-  );
-  sendDiscoveryForEntity(
-    mac,
-    tag,
-    "temp",
-    "Temperature",
-    "temperature",
-    "°C",
-    "{{ value_json.temperature }}"
-  );
-  sendDiscoveryForEntity(
-    mac,
-    tag,
-    "battery",
-    "Battery",
-    "battery",
-    "%",
-    "{{ (((value_json.battery / 1000) - 1.8) / (3.6 - 1.8) * 100) | round(0) | int}}",
-    "diagnostic"
-  );
+  if (hass_autodiscovery) {
+    sendDiscoveryForEntity(
+      mac,
+      tag,
+      "hum",
+      "Humidity",
+      "humidity",
+      "%H",
+      "{{ value_json.humidity }}"
+    );
+    sendDiscoveryForEntity(
+      mac,
+      tag,
+      "temp",
+      "Temperature",
+      "temperature",
+      "°C",
+      "{{ value_json.temperature }}"
+    );
+    sendDiscoveryForEntity(
+      mac,
+      tag,
+      "battery",
+      "Battery",
+      "battery",
+      "%",
+      "{{ (((value_json.battery / 1000) - 1.8) / (3.6 - 1.8) * 100) | round(0) | int}}",
+      "diagnostic"
+    );
+  }
 }
 
 function sendDiscoveryForEntity(
@@ -102,7 +109,7 @@ function sendDiscoveryForEntity(
   valueTemplate,
   entityCategory
 ) {
-  var topic = `homeassistant/sensor/ruuvi_${tag.id}_${suffix}/config`;
+  var topic = `${hass_autodiscovery_topic_prefix}/sensor/ruuvi_${tag.id}_${suffix}/config`;
   var payload = {
     device: {
       connections: [["mac", mac]],
@@ -117,7 +124,7 @@ function sendDiscoveryForEntity(
     object_id: `ruuvi_${tag.id}_${suffix}`,
     unique_id: `sensor_mqtt_ruuvi_${tag.id}_${suffix}`,
     unit_of_measurement: unitOfMeasurement,
-    state_topic: `ruuvi/${mac}/status`,
+    state_topic: getTopicForMac(mac),
     value_template: valueTemplate,
     state_class: "measurement",
   };
@@ -152,5 +159,10 @@ function getAveragedDataForTag(tagid) {
   };
 }
 
-logger.info("Starting the Ruuvi2MQTT converter.");
-listener.start(handleRuuviReading, handleRuuviTagDiscovery);
+if (process.env.DUMMY_DATA == "true") {
+  logger.info("Starting the Ruuvi2MQTT converter with DUMMY DATA.");
+  dummy_listener.start(handleRuuviReading, handleRuuviTagDiscovery);
+} else {
+  logger.info("Starting the Ruuvi2MQTT converter.");
+  listener.start(handleRuuviReading, handleRuuviTagDiscovery);
+}

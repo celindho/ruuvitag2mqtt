@@ -13,10 +13,8 @@ function publishRetain(topic, message) {
   mqtt_client.publish(topic, message, { retain: true });
 }
 
-function createMqttClient() {
+function createMqttClient(mqtt_host, mqtt_port) {
   if (!mqtt_client) {
-    var mqtt_host = "192.168.1.173";
-    var mqtt_port = 1883;
     logger.info("MQTT connecting to %s:%d.", mqtt_host, mqtt_port);
     mqtt_client = mqtt.connect({
       host: mqtt_host,
@@ -34,9 +32,10 @@ function createMqttClient() {
   }
 }
 
-createMqttClient();
-
-module.exports = {
-  publish: publish,
-  publishRetain: publishRetain,
+module.exports = function (mqtt_host, mqtt_port) {
+  createMqttClient(mqtt_host, mqtt_port)
+  return {
+    publish: publish,
+    publishRetain: publishRetain,
+  };
 };
