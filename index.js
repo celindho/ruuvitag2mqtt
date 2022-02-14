@@ -9,8 +9,12 @@ const hass_autodiscovery_topic_prefix = args[3] ?? "homeassistant";
 const maxEntriesToAggregate = args[4] || 100;
 const maxWaitSeconds = args[5] || 2.5 * 60;
 
-const dummy_listener = require("./dummy_listener");
-const listener = require("./listener");
+var listener;
+if (process.env.DUMMY_DATA == "true") {
+  listener = require("./dummy_listener");
+} else {
+  listener = require("./listener");
+}
 
 const mqtt = require("./mqtt")(mqtt_host, 1883);
 const logger = require("./globals").logger;
@@ -159,10 +163,5 @@ function getAveragedDataForTag(tagid) {
   };
 }
 
-if (process.env.DUMMY_DATA == "true") {
-  logger.info("Starting the Ruuvi2MQTT converter with DUMMY DATA.");
-  dummy_listener.start(handleRuuviReading, handleRuuviTagDiscovery);
-} else {
   logger.info("Starting the Ruuvi2MQTT converter.");
   listener.start(handleRuuviReading, handleRuuviTagDiscovery);
-}
