@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start:test": "node index.js --mqtt_host=192.168.1.173 --mqtt_topic_prefix=ruuvi_test --hass_autodiscovery_topic_prefix=homeassistant_test",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:prod": "docker build --tag ruuvi-service .",
     "mount:prod": "docker run -d --name=ruuvi --restart=always --net=host --device=/dev/ttyAMA0 ruuvi-service"
