@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "command-line-args": "^5.2.1",
     "mqtt": "^4.2.6",
     "node-ruuvitag": "^4.6.1",
     "winston": "^3.3.3"

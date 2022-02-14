@@ -12,12 +12,12 @@
       "program": "${workspaceFolder}/index.js",
       "env": { "DUMMY_DATA": "true" },
       "args": [
-        "192.168.1.173",
-        "ruuvi_test",
-        "false",
-        "homeassistant_test",
-        "10",
-        "150"
+        "--mqtt_host=192.168.1.173",
+        "--mqtt_topic_prefix=ruuvi_test",
+        //"--hass_autodiscovery_disable",
+        "--hass_autodiscovery_topic_prefix=homeassistant_test",
+        "--maxEntriesToAggregate=10",
+        "--maxWaitSeconds=150"
       ]
     }
   ]
