@@ -10,7 +10,7 @@
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/index.js",
-      "env": { "DUMMY_DATA": "true" },
+      "env": { "useDummyData": "true" },
       "args": [
         "--mqtt_host=192.168.1.173",
         "--mqtt_topic_prefix=ruuvi_test",

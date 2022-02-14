@@ -1,47 +1,15 @@
 "use strict";
 
-const argsDefinitions = [
-  { name: "mqtt_host", alias: "h", type: String, defaultValue: "localhost" },
-  { name: "mqtt_port", alias: "p", type: Number, defaultValue: 1883 },
-  {
-    name: "mqtt_topic_prefix",
-    alias: "t",
-    type: String,
-    defaultValue: "ruuvi",
-  },
-  {
-    name: "hass_autodiscovery_disable",
-    alias: "d",
-    type: Boolean,
-    defaultValue: false,
-  },
-  {
-    name: "hass_autodiscovery_topic_prefix",
-    alias: "x",
-    type: String,
-    defaultValue: "homeassistant",
-  },
-  {
-    name: "maxEntriesToAggregate",
-    alias: "n",
-    type: Number,
-    defaultValue: 100,
-  },
-  { name: "maxWaitSeconds", alias: "s", type: Number, defaultValue: 2.5 * 60 },
-];
-
-const commandLineArgs = require("command-line-args");
-const args = commandLineArgs(argsDefinitions);
+const { logger, settings } = require("./globals");
 
 var listener;
-if (process.env.DUMMY_DATA == "true") {
+if (settings.useDummyData == "true") {
   listener = require("./dummy_listener");
 } else {
   listener = require("./listener");
 }
 
-const mqtt = require("./mqtt")(args.mqtt_host, args.mqtt_port);
-const logger = require("./globals").logger;
+const mqtt = require("./mqtt")(settings.mqtt_host, settings.mqtt_port);
 
 var valuemap = {};
 var lastSendForMac = {};
@@ -63,7 +31,7 @@ function reinitData(mac, isFirstInit) {
   if (isFirstInit) {
     //allow for only 15 second aggregation for the first sample from a tag
     lastSendForMac[mac] = new Date(
-      new Date().getTime() - args.maxWaitSeconds * 1000 + 15 * 1000
+      new Date().getTime() - settings.maxWaitSeconds * 1000 + 15 * 1000
     );
   } else {
     //allow for normal amount of seconds of aggregation
@@ -72,7 +40,7 @@ function reinitData(mac, isFirstInit) {
 }
 
 function enoughtData(mac) {
-  return valuemap[mac].length >= args.maxEntriesToAggregate;
+  return valuemap[mac].length >= settings.maxEntriesToAggregate;
 }
 
 function dataIsOverdue(mac) {
@@ -80,7 +48,7 @@ function dataIsOverdue(mac) {
 
   var ageOfDataInSeconds = (new Date() - lastSendForMac[mac]) / 1000;
 
-  return ageOfDataInSeconds > args.maxWaitSeconds;
+  return ageOfDataInSeconds > settings.maxWaitSeconds;
 }
 
 function sendDataForTag(mac) {
@@ -91,11 +59,11 @@ function sendDataForTag(mac) {
 }
 
 function getTopicForMac(mac) {
-  return `${args.mqtt_topic_prefix}/${mac}/status`;
+  return `${settings.mqtt_topic_prefix}/${mac}/status`;
 }
 
 function handleRuuviTagDiscovery(mac, tag) {
-  if (!args.hass_autodiscovery_disable) {
+  if (!settings.hass_autodiscovery_disable) {
     sendDiscoveryForEntity(
       mac,
       tag,
@@ -137,7 +105,7 @@ function sendDiscoveryForEntity(
   valueTemplate,
   entityCategory
 ) {
-  var topic = `${args.hass_autodiscovery_topic_prefix}/sensor/ruuvi_${tag.id}_${suffix}/config`;
+  var topic = `${settings.hass_autodiscovery_topic_prefix}/sensor/ruuvi_${tag.id}_${suffix}/config`;
   var payload = {
     device: {
       connections: [["mac", mac]],
@@ -188,5 +156,5 @@ function getAveragedDataForTag(tagid) {
 }
 
 logger.info("Starting the Ruuvi2MQTT converter.");
-logger.info("Command line arguments: " + JSON.stringify(args));
+logger.info("Settings arguments: " + JSON.stringify(settings));
 listener.start(handleRuuviReading, handleRuuviTagDiscovery);

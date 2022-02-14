@@ -19,4 +19,4 @@ RUN npm install
 
 COPY *.js ./
 
-CMD ["sh", "-c", "node index.js --mqtt_host=${mqtt_host} --mqtt_port=${mqtt_port} --mqtt_topic_prefix=${mqtt_topic_prefix} --hass_autodiscovery_topic_prefix=${hass_autodiscovery_topic_prefix} --maxEntriesToAggregate=${maxEntriesToAggregate} --maxWaitSeconds=${maxWaitSeconds}"]
+CMD ["node", "index.js"]
