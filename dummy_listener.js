@@ -13,17 +13,15 @@ function start(dataCallback, discoveryCallback) {
     data.forEach((entry) => {
       if (!tags.includes(entry.tagid)) {
         tags.push(entry.tagid);
-        discoveryCallback(entry.tagid, entry.tagid);
+        discoveryCallback(entry.tagid, {
+          id: entry.tagid.replace(new RegExp(":", "g"), "").toLowerCase(),
+        });
       }
       dataCallback(entry.tagid, entry.tagid, entry.data);
     });
   } catch (err) {
     console.error(err);
   }
-}
-
-function convertIdToMac(id) {
-  return id.match(new RegExp(".{1,2}", "g")).join(":").toUpperCase();
 }
 
 module.exports = {
