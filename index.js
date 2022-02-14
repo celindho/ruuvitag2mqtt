@@ -156,5 +156,5 @@ function getAveragedDataForTag(tagid) {
 }
 
 logger.info("Starting the Ruuvi2MQTT converter.");
-logger.info("Settings arguments: " + JSON.stringify(settings));
+logger.info("Settings: " + JSON.stringify(settings));
 listener.start(handleRuuviReading, handleRuuviTagDiscovery);
