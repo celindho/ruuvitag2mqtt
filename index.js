@@ -49,6 +49,15 @@ function dataIsOverdue(mac) {
   return new Date() > nextSendForMac[mac];
 }
 
+function checkAndSendOveragedData() {
+  for (const [mac, value] of Object.entries(valuemap)) {
+    if (enoughtData(mac) || dataIsOverdue(mac)) {
+      console.log(`Data for mac ${key} is overdue.`);
+      sendDataForTag(mac);
+    }
+  }
+}
+
 function sendDataForTag(mac) {
   var data = getAveragedDataForTag(mac);
   var topic = getTopicForMac(mac);
@@ -156,3 +165,8 @@ function getAveragedDataForTag(tagid) {
 logger.info("Starting the Ruuvi2MQTT converter.");
 logger.info("Settings: " + JSON.stringify(settings));
 listener.start(handleRuuviReading, handleRuuviTagDiscovery);
+
+setInterval(
+  checkAndSendOveragedData,
+  Math.ceil((settings.maxWaitSeconds * 1000) / 10)
+);
