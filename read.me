@@ -4,3 +4,9 @@ Build the docker image using
 > docker build -t celindho/ruuvi2mqtt-service:latest .
 > cat docker-password.txt | docker login --username celindho --password-stdin
 > docker push celindho/ruuvi2mqtt-service:latest
+
+Development also needs (apart from nodejs etc.):
+* Device support
+  > sudo apt-get install bluetooth bluez libbluetooth-dev libudev-dev
+* Bluetooth access for nodejs
+  > sudo setcap cap_net_raw+eip $(eval readlink -f `which node`)

@@ -1,4 +1,4 @@
-FROM arm32v7/node:12.20.1
+FROM arm32v7/node:14.19.0
 
 RUN apt-get update \
     && apt-get upgrade -y \
@@ -15,6 +15,8 @@ COPY package-lock.json package-lock.json
 
 RUN npm install
 
+# RUN sudo setcap cap_net_raw+eip $(eval readlink -f `which node`)
+
 COPY *.js ./
 
-CMD [ "node", "index.js" ]
+CMD ["node", "index.js"]
