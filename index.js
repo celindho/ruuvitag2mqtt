@@ -12,7 +12,7 @@ if (settings.useDummyData == "true") {
 const mqtt = require("./mqtt")(settings.mqtt_host, settings.mqtt_port);
 
 var valuemap = {};
-var lastSendForMac = {};
+var nextSendForMac = {};
 
 function handleRuuviReading(mac, tag, data) {
   if (!valuemap[mac]) {
@@ -30,12 +30,12 @@ function reinitData(mac, isFirstInit) {
   valuemap[mac] = [];
   if (isFirstInit) {
     //allow for only 15 second aggregation for the first sample from a tag
-    lastSendForMac[mac] = new Date(
-      new Date().getTime() - settings.maxWaitSeconds * 1000 + 15 * 1000
-    );
+    nextSendForMac[mac] = new Date(new Date().getTime() + 15 * 1000);
   } else {
     //allow for normal amount of seconds of aggregation
-    lastSendForMac[mac] = new Date();
+    nextSendForMac[mac] = new Date(
+      new Date().getTime() + settings.maxWaitSeconds * 1000
+    );
   }
 }
 
@@ -46,9 +46,7 @@ function enoughtData(mac) {
 function dataIsOverdue(mac) {
   if (valuemap[mac].length == 0) return false;
 
-  var ageOfDataInSeconds = (new Date() - lastSendForMac[mac]) / 1000;
-
-  return ageOfDataInSeconds > settings.maxWaitSeconds;
+  return new Date() > nextSendForMac[mac];
 }
 
 function sendDataForTag(mac) {
