@@ -130,6 +130,7 @@ function sendDiscoveryForEntity(
     state_topic: getTopicForMac(mac),
     value_template: valueTemplate,
     state_class: "measurement",
+    force_update: true,
   };
   if (entityCategory) {
     payload.entity_category = entityCategory;
