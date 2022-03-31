@@ -131,6 +131,7 @@ function sendDiscoveryForEntity(
     value_template: valueTemplate,
     state_class: "measurement",
     force_update: true,
+    expire_after: settings.maxWaitSeconds * 4,
   };
   if (entityCategory) {
     payload.entity_category = entityCategory;
