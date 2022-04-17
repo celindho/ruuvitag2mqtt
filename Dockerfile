@@ -19,4 +19,6 @@ RUN npm install
 
 COPY *.js ./
 
+ENV config_folder="/config"
+
 CMD ["node", "index.js"]
