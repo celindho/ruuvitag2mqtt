@@ -80,5 +80,5 @@ function getSettings() {
 
 module.exports = {
   logger: getLogger(),
-  settings: getSettings()
+  settings: getSettings(),
 };
