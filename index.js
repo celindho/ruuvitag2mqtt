@@ -103,8 +103,7 @@ function handleRuuviTagDiscovery(mac) {
       name: "Battery",
       deviceClass: "battery",
       unitOfMeasurement: "%",
-      valueTemplate:
-        "{{ (((value_json.battery / 1000) - 1.8) / (3.6 - 1.8) * 100) | round(0) | int}}",
+      valueTemplate: "{{ value_json.battery}}",
       entityCategory: "diagnostic",
       expire_after: settings.maxWaitSeconds * 4,
     });
@@ -157,7 +156,10 @@ function getAveragedDataForTag(tagid) {
     humidity: Math.round((humidity / history.length) * 10) / 10,
     temperature: Math.round((temperature / history.length) * 100) / 100,
     pressure: Math.round((pressure / history.length) * 100) / 100,
-    battery: Math.round(battery / history.length),
+    battery_raw: Math.round(battery / history.length),
+    battery: Math.round(
+      ((battery / history.length / 1000 - 1.8) / (3.6 - 1.8)) * 100
+    ),
   };
 }
 
