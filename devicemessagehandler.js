@@ -60,19 +60,23 @@ function sendDataForTag(mac) {
   reinitData(mac);
 }
 
-function getAveragedDataForTag(tagid) {
-  var history = valuemap[tagid];
+function getAveragedDataForTag(mac) {
+  var history = valuemap[mac];
 
   var temperature = 0;
   var humidity = 0;
   var pressure = 0;
   var battery = 0;
+  var rssi = 0;
+  var txpower = 0;
 
   history.forEach((data, index) => {
     temperature += data["temperature"];
     humidity += data["humidity"];
     pressure += data["pressure"];
     battery += data["battery"];
+    rssi += data["rssi"];
+    txpower += data["txpower"];
   });
 
   return {
@@ -83,10 +87,13 @@ function getAveragedDataForTag(tagid) {
     battery: Math.round(
       ((battery / history.length / 1000 - 1.8) / (3.6 - 1.8)) * 100
     ),
+    rssi: Math.round(rssi / history.length),
+    mac: mac,
+    txpower: Math.round(txpower/history.length)
   };
 }
 
 module.exports = {
-    handleRuuviReading: handleRuuviReading,
-    checkAndSendOveragedData: checkAndSendOveragedData
-}
+  handleRuuviReading: handleRuuviReading,
+  checkAndSendOveragedData: checkAndSendOveragedData,
+};
