@@ -1,7 +1,7 @@
 "use strict";
 const mqtt = require("mqtt");
 
-const logger = require("./globals").logger;
+const { logger, settings } = require("./globals");
 
 var mqtt_client;
 
@@ -32,10 +32,9 @@ function createMqttClient(mqtt_host, mqtt_port) {
   }
 }
 
-module.exports = function (mqtt_host, mqtt_port) {
-  createMqttClient(mqtt_host, mqtt_port)
-  return {
-    publish: publish,
-    publishRetain: publishRetain,
-  };
+createMqttClient(settings.mqtt_host, settings.mqtt_port);
+
+module.exports = {
+  publish: publish,
+  publishRetain: publishRetain,
 };

@@ -1,6 +1,7 @@
 "use strict";
 
-const { logger, settings } = require("./globals");
+const { logger, settings, getTopicForMac } = require("./globals");
+
 
 var listener;
 if (settings.useDummyData == "true") {
@@ -9,7 +10,9 @@ if (settings.useDummyData == "true") {
   listener = require("./listener");
 }
 
-const mqtt = require("./mqtt")(settings.mqtt_host, settings.mqtt_port);
+const mqtt = require("./mqtt");
+
+const discovery = require("./discovery");
 
 var valuemap = {};
 var nextSendForMac = {};
@@ -65,77 +68,6 @@ function sendDataForTag(mac) {
   reinitData(mac);
 }
 
-function getTopicForMac(mac) {
-  return `${settings.mqtt_topic_prefix}/${mac}/status`;
-}
-
-function handleRuuviTagDiscovery(mac) {
-  if (!settings.hass_autodiscovery_disable) {
-  var mac_compact = mac.replace(/:/g, "").toLowerCase();
-
-    const device_part = {
-      connections: [["mac", mac]],
-      identifiers: [`RuuviTag ${mac}`],
-      manufacturer: "Ruuvi Innovations Ltd",
-      model: "RuuviTag",
-      name: `RuuviTag ${mac}`,
-      via_device: "Docker Ruuvi Service",
-    };
-
-    sendDiscoveryForEntity(mac, device_part, {
-      suffix: "hum",
-      name: "Humidity",
-      deviceClass: "humidity",
-      unitOfMeasurement: "%H",
-      valueTemplate: "{{ value_json.humidity }}",
-      expire_after: settings.maxWaitSeconds * 4,
-    });
-    sendDiscoveryForEntity(mac, device_part, {
-      suffix: "temp",
-      name: "Temperature",
-      deviceClass: "temperature",
-      unitOfMeasurement: "°C",
-      valueTemplate: "{{ value_json.temperature }}",
-      expire_after: settings.maxWaitSeconds * 4,
-    });
-    sendDiscoveryForEntity(mac, device_part, {
-      suffix: "battery",
-      name: "Battery",
-      deviceClass: "battery",
-      unitOfMeasurement: "%",
-      valueTemplate: "{{ value_json.battery}}",
-      entityCategory: "diagnostic",
-      expire_after: settings.maxWaitSeconds * 4,
-    });
-  }
-}
-
-function sendDiscoveryForEntity(mac, device_part, attributes) {
-  var mac_compact = mac.replace(/:/g, "").toLowerCase();
-
-  var topic = `${settings.hass_autodiscovery_topic_prefix}/sensor/ruuvi_${mac_compact}_${attributes.suffix}/config`;
-  var payload = {
-    device: device_part,
-    device_class: attributes.deviceClass,
-    name: `RuuviTag ${mac} ${attributes.name}`,
-    object_id: `ruuvi_${mac_compact}_${attributes.suffix}`,
-    unique_id: `sensor_mqtt_ruuvi_${mac_compact}_${attributes.suffix}`,
-    unit_of_measurement: attributes.unitOfMeasurement,
-    state_topic: getTopicForMac(mac),
-    value_template: attributes.valueTemplate,
-    state_class: "measurement",
-    force_update: true,
-  };
-  if (attributes.expire_after) {
-    payload.expire_after = attributes.expire_after;
-  }
-  if (attributes.entityCategory) {
-    payload.entity_category = attributes.entityCategory;
-  }
-
-  mqtt.publishRetain(topic, JSON.stringify(payload));
-}
-
 function getAveragedDataForTag(tagid) {
   var history = valuemap[tagid];
 
@@ -165,7 +97,7 @@ function getAveragedDataForTag(tagid) {
 
 logger.info("Starting the Ruuvi2MQTT converter.");
 logger.info("Settings: " + JSON.stringify(settings));
-listener.start(handleRuuviReading, handleRuuviTagDiscovery);
+listener.start(handleRuuviReading, discovery);
 
 setInterval(
   checkAndSendOveragedData,
