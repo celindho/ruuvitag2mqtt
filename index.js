@@ -2,7 +2,6 @@
 
 const { logger, settings, getTopicForMac } = require("./globals");
 
-
 var listener;
 if (settings.useDummyData == "true") {
   listener = require("./dummy_listener");
@@ -88,7 +87,6 @@ function getAveragedDataForTag(tagid) {
     humidity: Math.round((humidity / history.length) * 10) / 10,
     temperature: Math.round((temperature / history.length) * 100) / 100,
     pressure: Math.round((pressure / history.length) * 100) / 100,
-    battery_raw: Math.round(battery / history.length),
     battery: Math.round(
       ((battery / history.length / 1000 - 1.8) / (3.6 - 1.8)) * 100
     ),
