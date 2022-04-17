@@ -4,6 +4,8 @@ const { logger, settings, getTopicForMac } = require("./globals");
 
 const mqtt = require("./mqtt");
 
+//const deviceSettings = require("./devicesettings");
+
 function handleRuuviTagDiscovery(mac) {
   if (!settings.hass_autodiscovery_disable) {
     var mac_compact = mac.replace(/:/g, "").toLowerCase();
