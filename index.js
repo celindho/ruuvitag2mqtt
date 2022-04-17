@@ -71,67 +71,67 @@ function getTopicForMac(mac) {
 
 function handleRuuviTagDiscovery(mac) {
   if (!settings.hass_autodiscovery_disable) {
-    sendDiscoveryForEntity(
-      mac,
-      "hum",
-      "Humidity",
-      "humidity",
-      "%H",
-      "{{ value_json.humidity }}"
-    );
-    sendDiscoveryForEntity(
-      mac,
-      "temp",
-      "Temperature",
-      "temperature",
-      "°C",
-      "{{ value_json.temperature }}"
-    );
-    sendDiscoveryForEntity(
-      mac,
-      "battery",
-      "Battery",
-      "battery",
-      "%",
-      "{{ (((value_json.battery / 1000) - 1.8) / (3.6 - 1.8) * 100) | round(0) | int}}",
-      "diagnostic"
-    );
-  }
-}
-
-function sendDiscoveryForEntity(
-  mac,
-  suffix,
-  name,
-  deviceClass,
-  unitOfMeasurement,
-  valueTemplate,
-  entityCategory
-) {
   var mac_compact = mac.replace(/:/g, "").toLowerCase();
 
-  var topic = `${settings.hass_autodiscovery_topic_prefix}/sensor/ruuvi_${mac_compact}_${suffix}/config`;
-  var payload = {
-    device: {
+    const device_part = {
       connections: [["mac", mac]],
       identifiers: [`RuuviTag ${mac}`],
       manufacturer: "Ruuvi Innovations Ltd",
       model: "RuuviTag",
       name: `RuuviTag ${mac}`,
       via_device: "Docker Ruuvi Service",
-    },
-    device_class: deviceClass,
-    object_id: `ruuvi_${mac_compact}_${suffix}`,
-    unique_id: `sensor_mqtt_ruuvi_${mac_compact}_${suffix}`,
-    unit_of_measurement: unitOfMeasurement,
+    };
+
+    sendDiscoveryForEntity(mac, device_part, {
+      suffix: "hum",
+      name: "Humidity",
+      deviceClass: "humidity",
+      unitOfMeasurement: "%H",
+      valueTemplate: "{{ value_json.humidity }}",
+      expire_after: settings.maxWaitSeconds * 4,
+    });
+    sendDiscoveryForEntity(mac, device_part, {
+      suffix: "temp",
+      name: "Temperature",
+      deviceClass: "temperature",
+      unitOfMeasurement: "°C",
+      valueTemplate: "{{ value_json.temperature }}",
+      expire_after: settings.maxWaitSeconds * 4,
+    });
+    sendDiscoveryForEntity(mac, device_part, {
+      suffix: "battery",
+      name: "Battery",
+      deviceClass: "battery",
+      unitOfMeasurement: "%",
+      valueTemplate:
+        "{{ (((value_json.battery / 1000) - 1.8) / (3.6 - 1.8) * 100) | round(0) | int}}",
+      entityCategory: "diagnostic",
+      expire_after: settings.maxWaitSeconds * 4,
+    });
+  }
+}
+
+function sendDiscoveryForEntity(mac, device_part, attributes) {
+  var mac_compact = mac.replace(/:/g, "").toLowerCase();
+
+  var topic = `${settings.hass_autodiscovery_topic_prefix}/sensor/ruuvi_${mac_compact}_${attributes.suffix}/config`;
+  var payload = {
+    device: device_part,
+    device_class: attributes.deviceClass,
+    name: `RuuviTag ${mac} ${attributes.name}`,
+    object_id: `ruuvi_${mac_compact}_${attributes.suffix}`,
+    unique_id: `sensor_mqtt_ruuvi_${mac_compact}_${attributes.suffix}`,
+    unit_of_measurement: attributes.unitOfMeasurement,
     state_topic: getTopicForMac(mac),
-    value_template: valueTemplate,
+    value_template: attributes.valueTemplate,
     state_class: "measurement",
     force_update: true,
-    expire_after: settings.maxWaitSeconds * 4,
   };
-  if (entityCategory) {
-    payload.entity_category = entityCategory;
+  if (attributes.expire_after) {
+    payload.expire_after = attributes.expire_after;
+  }
+  if (attributes.entityCategory) {
+    payload.entity_category = attributes.entityCategory;
   }
 
   mqtt.publishRetain(topic, JSON.stringify(payload));
