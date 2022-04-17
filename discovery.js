@@ -22,7 +22,6 @@ function handleRuuviTagDiscovery(mac) {
 
     var sensors = [
       {
-        suffix: "hum",
         name: "Humidity",
         deviceClass: "humidity",
         unitOfMeasurement: "%H",
@@ -30,7 +29,6 @@ function handleRuuviTagDiscovery(mac) {
         expire_after: settings.maxWaitSeconds * 4,
       },
       {
-        suffix: "temp",
         name: "Temperature",
         deviceClass: "temperature",
         unitOfMeasurement: "°C",
@@ -38,7 +36,6 @@ function handleRuuviTagDiscovery(mac) {
         expire_after: settings.maxWaitSeconds * 4,
       },
       {
-        suffix: "pressure",
         name: "Pressure",
         deviceClass: "pressure",
         unitOfMeasurement: "hPa",
@@ -46,7 +43,6 @@ function handleRuuviTagDiscovery(mac) {
         expire_after: settings.maxWaitSeconds * 4,
       },
       {
-        suffix: "battery",
         name: "Battery",
         deviceClass: "battery",
         unitOfMeasurement: "%",
@@ -60,8 +56,10 @@ function handleRuuviTagDiscovery(mac) {
         device: device,
         device_class: attributes.deviceClass,
         name: `${deviceSettings.getNameByMac(mac)} ${attributes.name}`,
-        object_id: `ruuvi_${mac_compact}_${attributes.suffix}`,
-        unique_id: `sensor_mqtt_ruuvi_${mac_compact}_${attributes.suffix}`,
+        object_id: `${deviceSettings.getEscapedNameByMac(
+          mac
+        )}_${attributes.name.toLowerCase()}`,
+        unique_id: `sensor_mqtt_ruuvi_${mac_compact}_${attributes.name.toLowerCase()}`,
         unit_of_measurement: attributes.unitOfMeasurement,
         state_topic: deviceSettings.getTopicForMac(mac),
         value_template: attributes.valueTemplate,
@@ -75,7 +73,9 @@ function handleRuuviTagDiscovery(mac) {
         entity.entity_category = attributes.entityCategory;
       }
 
-      var discoveryTopic = `${settings.hass_autodiscovery_topic_prefix}/sensor/ruuvi_${mac_compact}_${attributes.suffix}/config`;
+      var discoveryTopic = `${
+        settings.hass_autodiscovery_topic_prefix
+      }/sensor/ruuvi_${mac_compact}_${attributes.name.toLowerCase()}/config`;
 
       mqtt.publishRetain(discoveryTopic, JSON.stringify(entity));
     });

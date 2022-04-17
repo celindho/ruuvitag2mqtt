@@ -16,6 +16,11 @@ function getNameByMac(mac) {
   return getByMac(mac).name || `RuuviTag ${mac}`;
 }
 
+function getEscapedNameByMac(mac) {
+  var name = getNameByMac(mac);
+  return name.toLowerCase().replace(/[^a-z ]/g, "");
+}
+
 function getAreaByMac(mac) {
   return getByMac(mac).area;
 }
@@ -28,4 +33,5 @@ module.exports = {
   getNameByMac: getNameByMac,
   getAreaByMac: getAreaByMac,
   getTopicForMac: getTopicForMac,
+  getEscapedNameByMac: getEscapedNameByMac,
 };
