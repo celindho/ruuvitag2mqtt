@@ -62,6 +62,11 @@ function getSettings() {
         defaultValue: 2.5 * 60,
       },
       { name: "useDummyData", type: String },
+      {
+        name: "config_folder",
+        type: String,
+        defaultValue: process.cwd() + "/.config",
+      },
     ];
 
     const args = commandLineArgs(argsDefinitions);

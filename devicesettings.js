@@ -1,7 +1,7 @@
 const { logger, settings } = require("./globals");
 
 const deviceStore = require("data-store")("ruuvitags", {
-  path: process.cwd() + "/.config/devices.json",
+  path: settings.config_folder + "/devices.json",
 });
 
 function getByMac(mac) {
