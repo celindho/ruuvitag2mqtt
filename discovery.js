@@ -52,7 +52,6 @@ function handleRuuviTagDiscovery(mac) {
         unitOfMeasurement: "%",
         valueTemplate: "{{ value_json.battery}}",
         entityCategory: "diagnostic",
-        expire_after: settings.maxWaitSeconds * 4,
       },
     ];
 
