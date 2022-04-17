@@ -8,10 +8,10 @@ function start(dataCallback, discoveryCallback) {
   ruuvi.on("found", (tag) => {
     logger.info("Found tag: " + JSON.stringify(tag));
     if (discoveryCallback) {
-      discoveryCallback(convertIdToMac(tag.id), tag);
+      discoveryCallback(convertIdToMac(tag.id));
     }
     tag.on("updated", (data) => {
-      dataCallback(convertIdToMac(tag.id), tag, data);
+      dataCallback(convertIdToMac(tag.id), data);
     });
   });
 

@@ -14,7 +14,7 @@ const mqtt = require("./mqtt")(settings.mqtt_host, settings.mqtt_port);
 var valuemap = {};
 var nextSendForMac = {};
 
-function handleRuuviReading(mac, tag, data) {
+function handleRuuviReading(mac, data) {
   if (!valuemap[mac]) {
     reinitData(mac, true);
   }
@@ -69,11 +69,10 @@ function getTopicForMac(mac) {
   return `${settings.mqtt_topic_prefix}/${mac}/status`;
 }
 
-function handleRuuviTagDiscovery(mac, tag) {
+function handleRuuviTagDiscovery(mac) {
   if (!settings.hass_autodiscovery_disable) {
     sendDiscoveryForEntity(
       mac,
-      tag,
       "hum",
       "Humidity",
       "humidity",
@@ -82,7 +81,6 @@ function handleRuuviTagDiscovery(mac, tag) {
     );
     sendDiscoveryForEntity(
       mac,
-      tag,
       "temp",
       "Temperature",
       "temperature",
@@ -91,7 +89,6 @@ function handleRuuviTagDiscovery(mac, tag) {
     );
     sendDiscoveryForEntity(
       mac,
-      tag,
       "battery",
       "Battery",
       "battery",
@@ -104,7 +101,6 @@ function handleRuuviTagDiscovery(mac, tag) {
 
 function sendDiscoveryForEntity(
   mac,
-  tag,
   suffix,
   name,
   deviceClass,
@@ -112,7 +108,9 @@ function sendDiscoveryForEntity(
   valueTemplate,
   entityCategory
 ) {
-  var topic = `${settings.hass_autodiscovery_topic_prefix}/sensor/ruuvi_${tag.id}_${suffix}/config`;
+  var mac_compact = mac.replace(/:/g, "").toLowerCase();
+
+  var topic = `${settings.hass_autodiscovery_topic_prefix}/sensor/ruuvi_${mac_compact}_${suffix}/config`;
   var payload = {
     device: {
       connections: [["mac", mac]],
@@ -123,9 +121,8 @@ function sendDiscoveryForEntity(
       via_device: "Docker Ruuvi Service",
     },
     device_class: deviceClass,
-    name: `RuuviTag ${mac} ${name}`,
-    object_id: `ruuvi_${tag.id}_${suffix}`,
-    unique_id: `sensor_mqtt_ruuvi_${tag.id}_${suffix}`,
+    object_id: `ruuvi_${mac_compact}_${suffix}`,
+    unique_id: `sensor_mqtt_ruuvi_${mac_compact}_${suffix}`,
     unit_of_measurement: unitOfMeasurement,
     state_topic: getTopicForMac(mac),
     value_template: valueTemplate,
