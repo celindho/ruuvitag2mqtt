@@ -78,12 +78,7 @@ function getSettings() {
   return settings;
 }
 
-function getTopicForMac(mac) {
-  return `${settings.mqtt_topic_prefix}/${mac}/status`;
-}
-
 module.exports = {
   logger: getLogger(),
-  settings: getSettings(),
-  getTopicForMac: getTopicForMac,
+  settings: getSettings()
 };

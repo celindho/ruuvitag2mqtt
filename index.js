@@ -1,6 +1,8 @@
 "use strict";
 
-const { logger, settings, getTopicForMac } = require("./globals");
+const { logger, settings } = require("./globals");
+
+const deviceSettings = require("./devicesettings");
 
 var listener;
 if (settings.useDummyData == "true") {
@@ -62,7 +64,7 @@ function checkAndSendOveragedData() {
 
 function sendDataForTag(mac) {
   var data = getAveragedDataForTag(mac);
-  var topic = getTopicForMac(mac);
+  var topic = deviceSettings.getTopicForMac(mac);
   mqtt.publish(topic, JSON.stringify(data));
   reinitData(mac);
 }
