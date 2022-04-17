@@ -15,9 +15,8 @@ function handleRuuviTagDiscovery(mac) {
       identifiers: [`RuuviTag ${mac}`],
       manufacturer: "Ruuvi Innovations Ltd",
       model: "RuuviTag",
-      name: `RuuviTag ${mac}`,
-      //name: deviceSettings.getNameByMac(mac),
-      //suggested_area: deviceSettings.getAreaByMac(mac),
+      name: deviceSettings.getNameByMac(mac),
+      suggested_area: deviceSettings.getAreaByMac(mac),
       via_device: "Docker Ruuvi Service",
     };
 
@@ -61,8 +60,7 @@ function handleRuuviTagDiscovery(mac) {
       var entity = {
         device: device,
         device_class: attributes.deviceClass,
-        name: `RuuviTag ${mac} ${attributes.name}`,
-        //name: `${deviceSettings.getNameByMac(mac)} ${attributes.name}`,
+        name: `${deviceSettings.getNameByMac(mac)} ${attributes.name}`,
         object_id: `ruuvi_${mac_compact}_${attributes.suffix}`,
         unique_id: `sensor_mqtt_ruuvi_${mac_compact}_${attributes.suffix}`,
         unit_of_measurement: attributes.unitOfMeasurement,
