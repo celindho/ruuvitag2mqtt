@@ -18,7 +18,10 @@ function getNameByMac(mac) {
 
 function getEscapedNameByMac(mac) {
   var name = getNameByMac(mac);
-  return name.toLowerCase().replace(/[^a-z ]/g, "");
+  return name
+    .toLowerCase()
+    .replace(/[^a-z ]/g, "")
+    .replace(/ +/g, "_");
 }
 
 function getAreaByMac(mac) {

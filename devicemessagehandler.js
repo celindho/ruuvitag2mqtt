@@ -68,7 +68,6 @@ function getAveragedDataForTag(mac) {
   var pressure = 0;
   var battery = 0;
   var rssi = 0;
-  var txpower = 0;
 
   history.forEach((data, index) => {
     temperature += data["temperature"];
@@ -76,7 +75,6 @@ function getAveragedDataForTag(mac) {
     pressure += data["pressure"];
     battery += data["battery"];
     rssi += data["rssi"];
-    txpower += data["txpower"];
   });
 
   return {
@@ -89,7 +87,6 @@ function getAveragedDataForTag(mac) {
     ),
     rssi: Math.round(rssi / history.length),
     mac: mac,
-    txpower: Math.round(txpower/history.length)
   };
 }
 

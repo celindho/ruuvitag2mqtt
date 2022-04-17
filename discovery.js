@@ -61,24 +61,18 @@ function handleRuuviTagDiscovery(mac) {
         entityCategory: "diagnostic",
         expire_after: settings.maxWaitSeconds * 2,
       },
-      {
-        name: "Tx Power",
-        deviceClass: "signal_strength",
-        unitOfMeasurement: "dBm",
-        valueTemplate: "{{ value_json.txpower}}",
-        entityCategory: "diagnostic",
-        expire_after: settings.maxWaitSeconds * 2,
-      },
     ];
 
     sensors.forEach((attributes) => {
+      var escapedName = attributes.name.toLowerCase().replace(/ +/g, "_");
+
       var entity = {
         device: device,
         name: `${deviceSettings.getNameByMac(mac)} ${attributes.name}`,
         object_id: `${deviceSettings.getEscapedNameByMac(
           mac
         )}_${attributes.name.toLowerCase()}`,
-        unique_id: `sensor_mqtt_ruuvi_${mac_compact}_${attributes.name.toLowerCase()}`,
+        unique_id: `sensor_mqtt_ruuvi_${mac_compact}_${escapedName}`,
         state_topic: deviceSettings.getTopicForMac(mac),
         value_template: attributes.valueTemplate,
         state_class: "measurement",
@@ -97,11 +91,7 @@ function handleRuuviTagDiscovery(mac) {
         entity.entity_category = attributes.entityCategory;
       }
 
-      var discoveryTopic = `${
-        settings.hass_autodiscovery_topic_prefix
-      }/sensor/ruuvi_${mac_compact}_${attributes.name
-        .toLowerCase()
-        .replace(/[^a-z ]/g, "")}/config`;
+      var discoveryTopic = `${settings.hass_autodiscovery_topic_prefix}/sensor/ruuvi_${mac_compact}_${escapedName}/config`;
 
       mqtt.publishRetain(discoveryTopic, JSON.stringify(entity));
     });
