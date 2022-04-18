@@ -26,6 +26,7 @@ function handleRuuviTagDiscovery(mac) {
         deviceClass: "humidity",
         unitOfMeasurement: "%H",
         valueTemplate: "{{ value_json.humidity }}",
+        collectStatistics: true,
         expire_after: settings.maxWaitSeconds * 4,
       },
       {
@@ -33,6 +34,7 @@ function handleRuuviTagDiscovery(mac) {
         deviceClass: "temperature",
         unitOfMeasurement: "°C",
         valueTemplate: "{{ value_json.temperature }}",
+        collectStatistics: true,
         expire_after: settings.maxWaitSeconds * 4,
       },
       {
@@ -40,6 +42,7 @@ function handleRuuviTagDiscovery(mac) {
         deviceClass: "pressure",
         unitOfMeasurement: "hPa",
         valueTemplate: "{{ value_json.pressure}}",
+        collectStatistics: true,
         expire_after: settings.maxWaitSeconds * 4,
       },
       {
@@ -75,9 +78,11 @@ function handleRuuviTagDiscovery(mac) {
         unique_id: `sensor_mqtt_ruuvi_${mac_compact}_${escapedName}`,
         state_topic: deviceSettings.getTopicForMac(mac),
         value_template: attributes.valueTemplate,
-        state_class: "measurement",
         force_update: true,
       };
+      if (attributes.collectStatistics) {
+        entity.state_class = "measurement";
+      }
       if (attributes.unitOfMeasurement) {
         entity.unit_of_measurement = attributes.unitOfMeasurement;
       }
