@@ -67,7 +67,7 @@ function handleRuuviTagDiscovery(mac) {
     ];
 
     sensors.forEach((attributes) => {
-      var escapedName = attributes.name.toLowerCase().replace(/ +/g, "_");
+      var escapedEntityName = attributes.name.toLowerCase().replace(/ +/g, "_");
 
       var entity = {
         device: device,
@@ -75,7 +75,7 @@ function handleRuuviTagDiscovery(mac) {
         object_id: `${deviceSettings.getEscapedNameByMac(
           mac
         )}_${attributes.name.toLowerCase()}`,
-        unique_id: `sensor_mqtt_ruuvi_${mac_compact}_${escapedName}`,
+        unique_id: `sensor_mqtt_ruuvi_${mac_compact}_${escapedEntityName}`,
         state_topic: deviceSettings.getTopicForMac(mac),
         value_template: attributes.valueTemplate,
         force_update: true,
@@ -96,7 +96,7 @@ function handleRuuviTagDiscovery(mac) {
         entity.entity_category = attributes.entityCategory;
       }
 
-      var discoveryTopic = `${settings.hass_autodiscovery_topic_prefix}/sensor/ruuvi_${mac_compact}_${escapedName}/config`;
+      var discoveryTopic = `${settings.hass_autodiscovery_topic_prefix}/sensor/ruuvi_${mac_compact}_${escapedEntityName}/config`;
 
       mqtt.publishRetain(discoveryTopic, JSON.stringify(entity));
     });
