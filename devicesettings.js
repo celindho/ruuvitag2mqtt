@@ -1,5 +1,7 @@
 const { logger, settings } = require("./globals");
 
+const removeAccents = require("remove-accents");
+
 const deviceStore = require("data-store")("ruuvitags", {
   path: settings.config_folder + "/devices.json",
 });
@@ -18,7 +20,7 @@ function getNameByMac(mac) {
 
 function getEscapedNameByMac(mac) {
   var name = getNameByMac(mac);
-  return name
+  return removeAccents(name)
     .toLowerCase()
     .replace(/[^a-z ]/g, "")
     .replace(/ +/g, "_");
