@@ -1,3556 +1,3556 @@
 [
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -75,
-            "temperature": 23.67,
-            "humidity": 30.9625,
-            "pressure": 99455,
-            "accelerationX": -40,
-            "accelerationY": 28,
-            "accelerationZ": 1024,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45069,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -83,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99487,
-            "accelerationX": 30,
-            "accelerationY": 32,
-            "accelerationZ": 1053,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -70,
-            "temperature": 23.36,
-            "humidity": 30.2125,
-            "pressure": 99485,
-            "accelerationX": 28,
-            "accelerationY": -28,
-            "accelerationZ": 1028,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53895,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -80,
-            "humidity": 74,
-            "temperature": -3.49,
-            "pressure": 99541,
-            "accelerationX": 569,
-            "accelerationY": 879,
-            "accelerationZ": 3,
-            "battery": 2827
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -75,
-            "temperature": 22.96,
-            "humidity": 28.995,
-            "pressure": 99465,
-            "accelerationX": -20,
-            "accelerationY": -16,
-            "accelerationZ": 1024,
-            "battery": 2953,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 45974,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -70,
-            "temperature": 23.36,
-            "humidity": 30.225,
-            "pressure": 99486,
-            "accelerationX": 32,
-            "accelerationY": -28,
-            "accelerationZ": 1024,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53896,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -75,
-            "temperature": 21.23,
-            "humidity": 26.2675,
-            "pressure": 99517,
-            "accelerationX": 24,
-            "accelerationY": -4,
-            "accelerationZ": 1056,
-            "battery": 2995,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1939,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -83,
-            "humidity": 74,
-            "temperature": -3.49,
-            "pressure": 99541,
-            "accelerationX": 575,
-            "accelerationY": 881,
-            "accelerationZ": 2,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99487,
-            "accelerationX": 31,
-            "accelerationY": 31,
-            "accelerationZ": 1055,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -79,
-            "temperature": 23.67,
-            "humidity": 30.95,
-            "pressure": 99455,
-            "accelerationX": -40,
-            "accelerationY": 16,
-            "accelerationZ": 1024,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45071,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -76,
-            "temperature": 22.97,
-            "humidity": 28.9825,
-            "pressure": 99465,
-            "accelerationX": -16,
-            "accelerationY": -8,
-            "accelerationZ": 1020,
-            "battery": 2953,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 45975,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -78,
-            "temperature": 21.23,
-            "humidity": 26.28,
-            "pressure": 99517,
-            "accelerationX": 28,
-            "accelerationY": 4,
-            "accelerationZ": 1064,
-            "battery": 2995,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1940,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99487,
-            "accelerationX": 30,
-            "accelerationY": 34,
-            "accelerationZ": 1055,
-            "battery": 2971
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -81,
-            "temperature": 23.67,
-            "humidity": 30.9625,
-            "pressure": 99455,
-            "accelerationX": -44,
-            "accelerationY": 20,
-            "accelerationZ": 1024,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45072,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 74,
-            "temperature": -3.49,
-            "pressure": 99541,
-            "accelerationX": 573,
-            "accelerationY": 879,
-            "accelerationZ": 1,
-            "battery": 2887
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99487,
-            "accelerationX": 30,
-            "accelerationY": 33,
-            "accelerationZ": 1058,
-            "battery": 2989
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -79,
-            "temperature": 21.23,
-            "humidity": 26.28,
-            "pressure": 99518,
-            "accelerationX": 16,
-            "accelerationY": -4,
-            "accelerationZ": 1060,
-            "battery": 2995,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1941,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -71,
-            "temperature": 23.36,
-            "humidity": 30.2375,
-            "pressure": 99486,
-            "accelerationX": 24,
-            "accelerationY": -28,
-            "accelerationZ": 1024,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53898,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -80,
-            "humidity": 74,
-            "temperature": -3.49,
-            "pressure": 99541,
-            "accelerationX": 573,
-            "accelerationY": 879,
-            "accelerationZ": 0,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -81,
-            "temperature": 23.67,
-            "humidity": 30.9725,
-            "pressure": 99456,
-            "accelerationX": -40,
-            "accelerationY": 16,
-            "accelerationZ": 1040,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45073,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -73,
-            "temperature": 23.36,
-            "humidity": 30.225,
-            "pressure": 99486,
-            "accelerationX": 28,
-            "accelerationY": -32,
-            "accelerationZ": 1016,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53899,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99487,
-            "accelerationX": 27,
-            "accelerationY": 33,
-            "accelerationZ": 1057,
-            "battery": 2989
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -75,
-            "temperature": 23.67,
-            "humidity": 30.9625,
-            "pressure": 99456,
-            "accelerationX": -48,
-            "accelerationY": 16,
-            "accelerationZ": 1032,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45074,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -82,
-            "temperature": 22.96,
-            "humidity": 28.9825,
-            "pressure": 99466,
-            "accelerationX": -20,
-            "accelerationY": -8,
-            "accelerationZ": 1024,
-            "battery": 2947,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 45978,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -74,
-            "temperature": 21.24,
-            "humidity": 26.28,
-            "pressure": 99518,
-            "accelerationX": 28,
-            "accelerationY": 4,
-            "accelerationZ": 1056,
-            "battery": 2995,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1943,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -81,
-            "humidity": 74,
-            "temperature": -3.49,
-            "pressure": 99542,
-            "accelerationX": 573,
-            "accelerationY": 883,
-            "accelerationZ": 6,
-            "battery": 2881
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -83,
-            "humidity": 74,
-            "temperature": -3.49,
-            "pressure": 99542,
-            "accelerationX": 573,
-            "accelerationY": 880,
-            "accelerationZ": 2,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99487,
-            "accelerationX": 31,
-            "accelerationY": 35,
-            "accelerationZ": 1055,
-            "battery": 2983
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -81,
-            "humidity": 74,
-            "temperature": -3.49,
-            "pressure": 99542,
-            "accelerationX": 574,
-            "accelerationY": 880,
-            "accelerationZ": 3,
-            "battery": 2881
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -79,
-            "temperature": 23.67,
-            "humidity": 30.95,
-            "pressure": 99456,
-            "accelerationX": -36,
-            "accelerationY": 20,
-            "accelerationZ": 1028,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45076,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -85,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99541,
-            "accelerationX": 572,
-            "accelerationY": 879,
-            "accelerationZ": 5,
-            "battery": 2881
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -80,
-            "temperature": 23.67,
-            "humidity": 30.9625,
-            "pressure": 99457,
-            "accelerationX": -44,
-            "accelerationY": 16,
-            "accelerationZ": 1028,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45077,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -76,
-            "temperature": 22.97,
-            "humidity": 28.9825,
-            "pressure": 99467,
-            "accelerationX": -12,
-            "accelerationY": -20,
-            "accelerationZ": 1020,
-            "battery": 2947,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 45981,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -71,
-            "temperature": 23.36,
-            "humidity": 30.225,
-            "pressure": 99486,
-            "accelerationX": 28,
-            "accelerationY": -32,
-            "accelerationZ": 1020,
-            "battery": 3007,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53903,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99487,
-            "accelerationX": 27,
-            "accelerationY": 31,
-            "accelerationZ": 1054,
-            "battery": 2983
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -81,
-            "temperature": 23.67,
-            "humidity": 30.9625,
-            "pressure": 99457,
-            "accelerationX": -44,
-            "accelerationY": 12,
-            "accelerationZ": 1028,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45078,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -81,
-            "temperature": 22.97,
-            "humidity": 28.9825,
-            "pressure": 99467,
-            "accelerationX": -20,
-            "accelerationY": -16,
-            "accelerationZ": 1016,
-            "battery": 2947,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 45982,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -74,
-            "temperature": 21.23,
-            "humidity": 26.29,
-            "pressure": 99519,
-            "accelerationX": 20,
-            "accelerationY": 0,
-            "accelerationZ": 1048,
-            "battery": 2977,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1947,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -74,
-            "temperature": 23.36,
-            "humidity": 30.2125,
-            "pressure": 99486,
-            "accelerationX": 28,
-            "accelerationY": -24,
-            "accelerationZ": 1024,
-            "battery": 3007,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53904,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -85,
-            "humidity": 74,
-            "temperature": -3.49,
-            "pressure": 99541,
-            "accelerationX": 572,
-            "accelerationY": 881,
-            "accelerationZ": 5,
-            "battery": 2881
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -83,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99487,
-            "accelerationX": 27,
-            "accelerationY": 27,
-            "accelerationZ": 1055,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -76,
-            "temperature": 23.67,
-            "humidity": 30.9725,
-            "pressure": 99457,
-            "accelerationX": -44,
-            "accelerationY": 8,
-            "accelerationZ": 1032,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45079,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -81,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99541,
-            "accelerationX": 572,
-            "accelerationY": 882,
-            "accelerationZ": 6,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -74,
-            "temperature": 21.23,
-            "humidity": 26.29,
-            "pressure": 99519,
-            "accelerationX": 20,
-            "accelerationY": -12,
-            "accelerationZ": 1068,
-            "battery": 2977,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1948,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -73,
-            "temperature": 23.36,
-            "humidity": 30.225,
-            "pressure": 99486,
-            "accelerationX": 24,
-            "accelerationY": -20,
-            "accelerationZ": 1024,
-            "battery": 3007,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53905,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99487,
-            "accelerationX": 26,
-            "accelerationY": 30,
-            "accelerationZ": 1057,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99541,
-            "accelerationX": 571,
-            "accelerationY": 880,
-            "accelerationZ": 1,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -75,
-            "temperature": 23.67,
-            "humidity": 30.9625,
-            "pressure": 99457,
-            "accelerationX": -40,
-            "accelerationY": 16,
-            "accelerationZ": 1032,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45080,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99487,
-            "accelerationX": 27,
-            "accelerationY": 28,
-            "accelerationZ": 1053,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -75,
-            "temperature": 22.97,
-            "humidity": 28.9825,
-            "pressure": 99467,
-            "accelerationX": -16,
-            "accelerationY": -16,
-            "accelerationZ": 1024,
-            "battery": 2947,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 45984,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -78,
-            "temperature": 21.23,
-            "humidity": 26.28,
-            "pressure": 99519,
-            "accelerationX": 28,
-            "accelerationY": -4,
-            "accelerationZ": 1068,
-            "battery": 2977,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1949,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99541,
-            "accelerationX": 571,
-            "accelerationY": 885,
-            "accelerationZ": 1,
-            "battery": 2881
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99487,
-            "accelerationX": 27,
-            "accelerationY": 28,
-            "accelerationZ": 1051,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -76,
-            "temperature": 23.67,
-            "humidity": 30.9625,
-            "pressure": 99456,
-            "accelerationX": -36,
-            "accelerationY": 20,
-            "accelerationZ": 1036,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45081,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99542,
-            "accelerationX": 571,
-            "accelerationY": 881,
-            "accelerationZ": -2,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99487,
-            "accelerationX": 28,
-            "accelerationY": 30,
-            "accelerationZ": 1052,
-            "battery": 2989
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -80,
-            "temperature": 23.67,
-            "humidity": 30.95,
-            "pressure": 99456,
-            "accelerationX": -44,
-            "accelerationY": 20,
-            "accelerationZ": 1032,
-            "battery": 3049,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45082,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -82,
-            "temperature": 22.97,
-            "humidity": 28.9825,
-            "pressure": 99467,
-            "accelerationX": -16,
-            "accelerationY": -20,
-            "accelerationZ": 1028,
-            "battery": 2959,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 45986,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -81,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99542,
-            "accelerationX": 573,
-            "accelerationY": 881,
-            "accelerationZ": 0,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -73,
-            "temperature": 23.36,
-            "humidity": 30.225,
-            "pressure": 99486,
-            "accelerationX": 28,
-            "accelerationY": -24,
-            "accelerationZ": 1028,
-            "battery": 3007,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53908,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99487,
-            "accelerationX": 27,
-            "accelerationY": 31,
-            "accelerationZ": 1054,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99542,
-            "accelerationX": 574,
-            "accelerationY": 879,
-            "accelerationZ": 3,
-            "battery": 2887
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -80,
-            "temperature": 23.67,
-            "humidity": 30.9625,
-            "pressure": 99456,
-            "accelerationX": -44,
-            "accelerationY": 28,
-            "accelerationZ": 1036,
-            "battery": 3049,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45083,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99487,
-            "accelerationX": 30,
-            "accelerationY": 29,
-            "accelerationZ": 1051,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -82,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99542,
-            "accelerationX": 574,
-            "accelerationY": 881,
-            "accelerationZ": 2,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99487,
-            "accelerationX": 36,
-            "accelerationY": 33,
-            "accelerationZ": 1053,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -75,
-            "temperature": 22.97,
-            "humidity": 28.9825,
-            "pressure": 99467,
-            "accelerationX": -24,
-            "accelerationY": -16,
-            "accelerationZ": 1024,
-            "battery": 2959,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 45988,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -67,
-            "temperature": 23.36,
-            "humidity": 30.2125,
-            "pressure": 99486,
-            "accelerationX": 32,
-            "accelerationY": -20,
-            "accelerationZ": 1020,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53910,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -74,
-            "temperature": 21.23,
-            "humidity": 26.28,
-            "pressure": 99519,
-            "accelerationX": 28,
-            "accelerationY": -4,
-            "accelerationZ": 1060,
-            "battery": 2977,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1953,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99541,
-            "accelerationX": 572,
-            "accelerationY": 880,
-            "accelerationZ": 2,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -85,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99487,
-            "accelerationX": 35,
-            "accelerationY": 32,
-            "accelerationZ": 1053,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -76,
-            "temperature": 23.67,
-            "humidity": 30.9725,
-            "pressure": 99456,
-            "accelerationX": -44,
-            "accelerationY": 16,
-            "accelerationZ": 1040,
-            "battery": 3049,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45085,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -75,
-            "temperature": 22.97,
-            "humidity": 28.995,
-            "pressure": 99466,
-            "accelerationX": -12,
-            "accelerationY": -20,
-            "accelerationZ": 1028,
-            "battery": 2959,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 45989,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -74,
-            "temperature": 21.23,
-            "humidity": 26.28,
-            "pressure": 99519,
-            "accelerationX": 24,
-            "accelerationY": -4,
-            "accelerationZ": 1056,
-            "battery": 2995,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1954,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -67,
-            "temperature": 23.36,
-            "humidity": 30.2125,
-            "pressure": 99485,
-            "accelerationX": 28,
-            "accelerationY": -24,
-            "accelerationZ": 1020,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53911,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -81,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99541,
-            "accelerationX": 568,
-            "accelerationY": 882,
-            "accelerationZ": 0,
-            "battery": 2887
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99487,
-            "accelerationX": 34,
-            "accelerationY": 33,
-            "accelerationZ": 1051,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -80,
-            "temperature": 23.67,
-            "humidity": 30.9725,
-            "pressure": 99455,
-            "accelerationX": -44,
-            "accelerationY": 16,
-            "accelerationZ": 1036,
-            "battery": 3049,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45086,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99541,
-            "accelerationX": 568,
-            "accelerationY": 879,
-            "accelerationZ": 2,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -80,
-            "temperature": 22.96,
-            "humidity": 28.9725,
-            "pressure": 99466,
-            "accelerationX": -16,
-            "accelerationY": -16,
-            "accelerationZ": 1020,
-            "battery": 2959,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 45990,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -79,
-            "temperature": 21.23,
-            "humidity": 26.28,
-            "pressure": 99519,
-            "accelerationX": 20,
-            "accelerationY": -4,
-            "accelerationZ": 1064,
-            "battery": 2995,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1955,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -70,
-            "temperature": 23.36,
-            "humidity": 30.2025,
-            "pressure": 99485,
-            "accelerationX": 28,
-            "accelerationY": -24,
-            "accelerationZ": 1028,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53912,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -83,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99487,
-            "accelerationX": 34,
-            "accelerationY": 33,
-            "accelerationZ": 1052,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -80,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99541,
-            "accelerationX": 568,
-            "accelerationY": 883,
-            "accelerationZ": 4,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99487,
-            "accelerationX": 31,
-            "accelerationY": 36,
-            "accelerationZ": 1053,
-            "battery": 2971
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -81,
-            "temperature": 22.97,
-            "humidity": 28.995,
-            "pressure": 99466,
-            "accelerationX": -16,
-            "accelerationY": -12,
-            "accelerationZ": 1024,
-            "battery": 2959,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 45991,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -71,
-            "temperature": 23.36,
-            "humidity": 30.2125,
-            "pressure": 99485,
-            "accelerationX": 32,
-            "accelerationY": -28,
-            "accelerationZ": 1032,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53913,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99486,
-            "accelerationX": 27,
-            "accelerationY": 36,
-            "accelerationZ": 1056,
-            "battery": 2983
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -75,
-            "temperature": 23.67,
-            "humidity": 30.9625,
-            "pressure": 99455,
-            "accelerationX": -40,
-            "accelerationY": 16,
-            "accelerationZ": 1028,
-            "battery": 3049,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45088,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -81,
-            "temperature": 22.96,
-            "humidity": 28.9825,
-            "pressure": 99466,
-            "accelerationX": -16,
-            "accelerationY": -12,
-            "accelerationZ": 1028,
-            "battery": 2959,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 45992,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -74,
-            "temperature": 21.23,
-            "humidity": 26.29,
-            "pressure": 99518,
-            "accelerationX": 24,
-            "accelerationY": 0,
-            "accelerationZ": 1052,
-            "battery": 2995,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1957,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -71,
-            "temperature": 23.36,
-            "humidity": 30.2025,
-            "pressure": 99485,
-            "accelerationX": 24,
-            "accelerationY": -28,
-            "accelerationZ": 1028,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53914,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99486,
-            "accelerationX": 27,
-            "accelerationY": 35,
-            "accelerationZ": 1056,
-            "battery": 2971
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -75,
-            "temperature": 23.67,
-            "humidity": 30.95,
-            "pressure": 99455,
-            "accelerationX": -40,
-            "accelerationY": 16,
-            "accelerationZ": 1040,
-            "battery": 3049,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45089,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -74,
-            "temperature": 21.23,
-            "humidity": 26.28,
-            "pressure": 99518,
-            "accelerationX": 20,
-            "accelerationY": -4,
-            "accelerationZ": 1064,
-            "battery": 2995,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1958,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -73,
-            "temperature": 23.36,
-            "humidity": 30.225,
-            "pressure": 99485,
-            "accelerationX": 24,
-            "accelerationY": -16,
-            "accelerationZ": 1028,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53915,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99540,
-            "accelerationX": 571,
-            "accelerationY": 878,
-            "accelerationZ": -1,
-            "battery": 2881
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -79,
-            "temperature": 23.67,
-            "humidity": 30.9725,
-            "pressure": 99454,
-            "accelerationX": -44,
-            "accelerationY": 16,
-            "accelerationZ": 1032,
-            "battery": 3049,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45090,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -78,
-            "temperature": 21.23,
-            "humidity": 26.28,
-            "pressure": 99517,
-            "accelerationX": 24,
-            "accelerationY": -4,
-            "accelerationZ": 1064,
-            "battery": 2995,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1959,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99485,
-            "accelerationX": 31,
-            "accelerationY": 32,
-            "accelerationZ": 1054,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99484,
-            "accelerationX": 29,
-            "accelerationY": 29,
-            "accelerationZ": 1053,
-            "battery": 2989
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -79,
-            "temperature": 23.67,
-            "humidity": 30.95,
-            "pressure": 99454,
-            "accelerationX": -36,
-            "accelerationY": 20,
-            "accelerationZ": 1032,
-            "battery": 3043,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45091,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -75,
-            "temperature": 22.96,
-            "humidity": 28.995,
-            "pressure": 99465,
-            "accelerationX": -20,
-            "accelerationY": -12,
-            "accelerationZ": 1032,
-            "battery": 2959,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 45995,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -78,
-            "temperature": 21.23,
-            "humidity": 26.2675,
-            "pressure": 99517,
-            "accelerationX": 24,
-            "accelerationY": 4,
-            "accelerationZ": 1060,
-            "battery": 2995,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1960,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -67,
-            "temperature": 23.35,
-            "humidity": 30.2025,
-            "pressure": 99484,
-            "accelerationX": 28,
-            "accelerationY": -24,
-            "accelerationZ": 1024,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53917,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -81,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99540,
-            "accelerationX": 571,
-            "accelerationY": 879,
-            "accelerationZ": 1,
-            "battery": 2887
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -77,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99484,
-            "accelerationX": 32,
-            "accelerationY": 30,
-            "accelerationZ": 1054,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -81,
-            "temperature": 23.67,
-            "humidity": 30.9725,
-            "pressure": 99454,
-            "accelerationX": -36,
-            "accelerationY": 16,
-            "accelerationZ": 1028,
-            "battery": 3043,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45092,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -75,
-            "temperature": 22.96,
-            "humidity": 28.995,
-            "pressure": 99465,
-            "accelerationX": -24,
-            "accelerationY": -20,
-            "accelerationZ": 1016,
-            "battery": 2959,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 45996,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -70,
-            "temperature": 23.35,
-            "humidity": 30.2125,
-            "pressure": 99484,
-            "accelerationX": 28,
-            "accelerationY": -28,
-            "accelerationZ": 1028,
-            "battery": 3001,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53918,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -83,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99484,
-            "accelerationX": 32,
-            "accelerationY": 35,
-            "accelerationZ": 1054,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -81,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99539,
-            "accelerationX": 571,
-            "accelerationY": 880,
-            "accelerationZ": 2,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -76,
-            "temperature": 22.96,
-            "humidity": 28.995,
-            "pressure": 99464,
-            "accelerationX": -20,
-            "accelerationY": -12,
-            "accelerationZ": 1028,
-            "battery": 2959,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 45997,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -75,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99484,
-            "accelerationX": 32,
-            "accelerationY": 32,
-            "accelerationZ": 1050,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -85,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99539,
-            "accelerationX": 569,
-            "accelerationY": 880,
-            "accelerationZ": 3,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -81,
-            "temperature": 23.67,
-            "humidity": 30.9725,
-            "pressure": 99454,
-            "accelerationX": -48,
-            "accelerationY": 16,
-            "accelerationZ": 1040,
-            "battery": 3043,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45094,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99483,
-            "accelerationX": 29,
-            "accelerationY": 31,
-            "accelerationZ": 1053,
-            "battery": 2971
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -81,
-            "temperature": 22.96,
-            "humidity": 28.995,
-            "pressure": 99464,
-            "accelerationX": -20,
-            "accelerationY": -4,
-            "accelerationZ": 1024,
-            "battery": 2959,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 45998,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -74,
-            "temperature": 21.23,
-            "humidity": 26.28,
-            "pressure": 99516,
-            "accelerationX": 24,
-            "accelerationY": 0,
-            "accelerationZ": 1056,
-            "battery": 2983,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1963,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -80,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99539,
-            "accelerationX": 571,
-            "accelerationY": 881,
-            "accelerationZ": 6,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99483,
-            "accelerationX": 27,
-            "accelerationY": 31,
-            "accelerationZ": 1058,
-            "battery": 2983
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -81,
-            "temperature": 22.96,
-            "humidity": 28.995,
-            "pressure": 99465,
-            "accelerationX": -20,
-            "accelerationY": -16,
-            "accelerationZ": 1024,
-            "battery": 2959,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 45999,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -74,
-            "temperature": 21.23,
-            "humidity": 26.28,
-            "pressure": 99515,
-            "accelerationX": 20,
-            "accelerationY": -12,
-            "accelerationZ": 1056,
-            "battery": 2983,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1964,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -72,
-            "temperature": 23.35,
-            "humidity": 30.2125,
-            "pressure": 99484,
-            "accelerationX": 24,
-            "accelerationY": -24,
-            "accelerationZ": 1032,
-            "battery": 3001,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53921,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99539,
-            "accelerationX": 570,
-            "accelerationY": 880,
-            "accelerationZ": 7,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99484,
-            "accelerationX": 30,
-            "accelerationY": 29,
-            "accelerationZ": 1056,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -79,
-            "temperature": 23.67,
-            "humidity": 30.95,
-            "pressure": 99454,
-            "accelerationX": -40,
-            "accelerationY": 20,
-            "accelerationZ": 1024,
-            "battery": 3043,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45096,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -81,
-            "temperature": 22.96,
-            "humidity": 28.9825,
-            "pressure": 99465,
-            "accelerationX": -16,
-            "accelerationY": -12,
-            "accelerationZ": 1020,
-            "battery": 2959,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 46000,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -74,
-            "temperature": 21.23,
-            "humidity": 26.28,
-            "pressure": 99515,
-            "accelerationX": 24,
-            "accelerationY": -4,
-            "accelerationZ": 1056,
-            "battery": 2983,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1965,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -67,
-            "temperature": 23.35,
-            "humidity": 30.2125,
-            "pressure": 99484,
-            "accelerationX": 32,
-            "accelerationY": -32,
-            "accelerationZ": 1028,
-            "battery": 3001,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53922,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -81,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99539,
-            "accelerationX": 574,
-            "accelerationY": 882,
-            "accelerationZ": 2,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -79,
-            "temperature": 23.67,
-            "humidity": 30.9625,
-            "pressure": 99454,
-            "accelerationX": -40,
-            "accelerationY": 20,
-            "accelerationZ": 1032,
-            "battery": 3043,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45097,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99539,
-            "accelerationX": 570,
-            "accelerationY": 879,
-            "accelerationZ": 3,
-            "battery": 2881
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -79,
-            "temperature": 21.23,
-            "humidity": 26.2675,
-            "pressure": 99515,
-            "accelerationX": 32,
-            "accelerationY": 0,
-            "accelerationZ": 1064,
-            "battery": 2983,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1966,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -67,
-            "temperature": 23.35,
-            "humidity": 30.2025,
-            "pressure": 99485,
-            "accelerationX": 28,
-            "accelerationY": -32,
-            "accelerationZ": 1028,
-            "battery": 3001,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53923,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -81,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99539,
-            "accelerationX": 571,
-            "accelerationY": 878,
-            "accelerationZ": 7,
-            "battery": 2881
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -81,
-            "temperature": 23.67,
-            "humidity": 30.9625,
-            "pressure": 99454,
-            "accelerationX": -36,
-            "accelerationY": 20,
-            "accelerationZ": 1036,
-            "battery": 3043,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45098,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -85,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99484,
-            "accelerationX": 28,
-            "accelerationY": 32,
-            "accelerationZ": 1053,
-            "battery": 2971
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -72,
-            "temperature": 23.35,
-            "humidity": 30.2025,
-            "pressure": 99485,
-            "accelerationX": 24,
-            "accelerationY": -28,
-            "accelerationZ": 1020,
-            "battery": 3001,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53924,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -78,
-            "temperature": 21.23,
-            "humidity": 26.28,
-            "pressure": 99515,
-            "accelerationX": 24,
-            "accelerationY": 0,
-            "accelerationZ": 1060,
-            "battery": 2983,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1967,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -85,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99540,
-            "accelerationX": 572,
-            "accelerationY": 878,
-            "accelerationZ": 4,
-            "battery": 2887
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99485,
-            "accelerationX": 28,
-            "accelerationY": 31,
-            "accelerationZ": 1053,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -81,
-            "temperature": 23.67,
-            "humidity": 30.95,
-            "pressure": 99454,
-            "accelerationX": -36,
-            "accelerationY": 20,
-            "accelerationZ": 1032,
-            "battery": 3043,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45099,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -85,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99539,
-            "accelerationX": 573,
-            "accelerationY": 877,
-            "accelerationZ": 1,
-            "battery": 2881
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -75,
-            "temperature": 22.96,
-            "humidity": 28.9825,
-            "pressure": 99465,
-            "accelerationX": -16,
-            "accelerationY": -12,
-            "accelerationZ": 1028,
-            "battery": 2953,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 46004,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -82,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99539,
-            "accelerationX": 570,
-            "accelerationY": 877,
-            "accelerationZ": -2,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99484,
-            "accelerationX": 28,
-            "accelerationY": 34,
-            "accelerationZ": 1053,
-            "battery": 2971
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99539,
-            "accelerationX": 573,
-            "accelerationY": 880,
-            "accelerationZ": -1,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -83,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99485,
-            "accelerationX": 28,
-            "accelerationY": 31,
-            "accelerationZ": 1056,
-            "battery": 2989
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -81,
-            "temperature": 22.96,
-            "humidity": 28.995,
-            "pressure": 99465,
-            "accelerationX": -16,
-            "accelerationY": -8,
-            "accelerationZ": 1028,
-            "battery": 2953,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 46005,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -67,
-            "temperature": 23.35,
-            "humidity": 30.2025,
-            "pressure": 99485,
-            "accelerationX": 28,
-            "accelerationY": -28,
-            "accelerationZ": 1024,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53927,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -81,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99540,
-            "accelerationX": 572,
-            "accelerationY": 879,
-            "accelerationZ": 1,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99484,
-            "accelerationX": 30,
-            "accelerationY": 35,
-            "accelerationZ": 1056,
-            "battery": 2995
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -80,
-            "temperature": 23.67,
-            "humidity": 30.9625,
-            "pressure": 99455,
-            "accelerationX": -44,
-            "accelerationY": 12,
-            "accelerationZ": 1040,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45102,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -66,
-            "temperature": 23.35,
-            "humidity": 30.2025,
-            "pressure": 99485,
-            "accelerationX": 32,
-            "accelerationY": -28,
-            "accelerationZ": 1028,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53928,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -85,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99540,
-            "accelerationX": 572,
-            "accelerationY": 879,
-            "accelerationZ": 1,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -83,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99484,
-            "accelerationX": 28,
-            "accelerationY": 35,
-            "accelerationZ": 1056,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -79,
-            "temperature": 23.67,
-            "humidity": 30.95,
-            "pressure": 99455,
-            "accelerationX": -40,
-            "accelerationY": 20,
-            "accelerationZ": 1048,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45103,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -79,
-            "temperature": 21.23,
-            "humidity": 26.28,
-            "pressure": 99515,
-            "accelerationX": 20,
-            "accelerationY": -4,
-            "accelerationZ": 1060,
-            "battery": 2989,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1972,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -80,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99540,
-            "accelerationX": 570,
-            "accelerationY": 882,
-            "accelerationZ": 1,
-            "battery": 2887
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99484,
-            "accelerationX": 25,
-            "accelerationY": 33,
-            "accelerationZ": 1057,
-            "battery": 2989
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99540,
-            "accelerationX": 570,
-            "accelerationY": 883,
-            "accelerationZ": 4,
-            "battery": 2869
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -75,
-            "temperature": 22.96,
-            "humidity": 28.995,
-            "pressure": 99465,
-            "accelerationX": -20,
-            "accelerationY": -24,
-            "accelerationZ": 1028,
-            "battery": 2953,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 46008,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -78,
-            "temperature": 21.23,
-            "humidity": 26.28,
-            "pressure": 99515,
-            "accelerationX": 20,
-            "accelerationY": 0,
-            "accelerationZ": 1060,
-            "battery": 2989,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1973,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -71,
-            "temperature": 23.35,
-            "humidity": 30.2025,
-            "pressure": 99485,
-            "accelerationX": 32,
-            "accelerationY": -28,
-            "accelerationZ": 1024,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53930,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99484,
-            "accelerationX": 29,
-            "accelerationY": 32,
-            "accelerationZ": 1057,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -85,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99539,
-            "accelerationX": 571,
-            "accelerationY": 883,
-            "accelerationZ": 2,
-            "battery": 2881
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -80,
-            "temperature": 23.67,
-            "humidity": 30.95,
-            "pressure": 99454,
-            "accelerationX": -44,
-            "accelerationY": 20,
-            "accelerationZ": 1028,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45105,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99484,
-            "accelerationX": 29,
-            "accelerationY": 35,
-            "accelerationZ": 1053,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -71,
-            "temperature": 23.35,
-            "humidity": 30.2025,
-            "pressure": 99485,
-            "accelerationX": 16,
-            "accelerationY": -28,
-            "accelerationZ": 1024,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53931,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99539,
-            "accelerationX": 571,
-            "accelerationY": 882,
-            "accelerationZ": 4,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99485,
-            "accelerationX": 31,
-            "accelerationY": 33,
-            "accelerationZ": 1056,
-            "battery": 2989
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -76,
-            "temperature": 23.67,
-            "humidity": 30.95,
-            "pressure": 99454,
-            "accelerationX": -36,
-            "accelerationY": 20,
-            "accelerationZ": 1028,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45106,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -82,
-            "temperature": 22.96,
-            "humidity": 28.9825,
-            "pressure": 99465,
-            "accelerationX": -20,
-            "accelerationY": -12,
-            "accelerationZ": 1028,
-            "battery": 2953,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 46010,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99485,
-            "accelerationX": 34,
-            "accelerationY": 33,
-            "accelerationZ": 1053,
-            "battery": 2971
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -79,
-            "temperature": 23.67,
-            "humidity": 30.9725,
-            "pressure": 99455,
-            "accelerationX": -44,
-            "accelerationY": 20,
-            "accelerationZ": 1028,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45107,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -74,
-            "temperature": 21.23,
-            "humidity": 26.28,
-            "pressure": 99515,
-            "accelerationX": 12,
-            "accelerationY": 0,
-            "accelerationZ": 1060,
-            "battery": 2989,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1976,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -72,
-            "temperature": 23.35,
-            "humidity": 30.225,
-            "pressure": 99485,
-            "accelerationX": 20,
-            "accelerationY": -20,
-            "accelerationZ": 1020,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53933,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -79,
-            "temperature": 23.67,
-            "humidity": 30.95,
-            "pressure": 99455,
-            "accelerationX": -36,
-            "accelerationY": 16,
-            "accelerationZ": 1032,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45108,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -81,
-            "humidity": 74,
-            "temperature": -3.5,
-            "pressure": 99540,
-            "accelerationX": 570,
-            "accelerationY": 882,
-            "accelerationZ": 2,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99485,
-            "accelerationX": 29,
-            "accelerationY": 35,
-            "accelerationZ": 1057,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -78,
-            "temperature": 21.23,
-            "humidity": 26.28,
-            "pressure": 99515,
-            "accelerationX": 24,
-            "accelerationY": -4,
-            "accelerationZ": 1060,
-            "battery": 2989,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1977,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -73,
-            "temperature": 23.35,
-            "humidity": 30.225,
-            "pressure": 99485,
-            "accelerationX": 32,
-            "accelerationY": -24,
-            "accelerationZ": 1024,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53934,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 74,
-            "temperature": -3.51,
-            "pressure": 99539,
-            "accelerationX": 570,
-            "accelerationY": 878,
-            "accelerationZ": 0,
-            "battery": 2881
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99485,
-            "accelerationX": 31,
-            "accelerationY": 31,
-            "accelerationZ": 1061,
-            "battery": 2971
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -80,
-            "temperature": 23.67,
-            "humidity": 30.9625,
-            "pressure": 99455,
-            "accelerationX": -36,
-            "accelerationY": 16,
-            "accelerationZ": 1036,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45109,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -75,
-            "temperature": 22.96,
-            "humidity": 28.995,
-            "pressure": 99465,
-            "accelerationX": -16,
-            "accelerationY": -20,
-            "accelerationZ": 1028,
-            "battery": 2953,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 46013,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -79,
-            "temperature": 21.23,
-            "humidity": 26.28,
-            "pressure": 99516,
-            "accelerationX": 12,
-            "accelerationY": -4,
-            "accelerationZ": 1056,
-            "battery": 2989,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1978,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -67,
-            "temperature": 23.35,
-            "humidity": 30.225,
-            "pressure": 99486,
-            "accelerationX": 28,
-            "accelerationY": -24,
-            "accelerationZ": 1016,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53935,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -80,
-            "humidity": 74,
-            "temperature": -3.51,
-            "pressure": 99539,
-            "accelerationX": 571,
-            "accelerationY": 874,
-            "accelerationZ": 3,
-            "battery": 2893
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -77,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99485,
-            "accelerationX": 30,
-            "accelerationY": 36,
-            "accelerationZ": 1057,
-            "battery": 2971
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -75,
-            "temperature": 22.96,
-            "humidity": 28.995,
-            "pressure": 99465,
-            "accelerationX": -16,
-            "accelerationY": -20,
-            "accelerationZ": 1024,
-            "battery": 2953,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 46014,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -70,
-            "temperature": 23.35,
-            "humidity": 30.2125,
-            "pressure": 99486,
-            "accelerationX": 24,
-            "accelerationY": -28,
-            "accelerationZ": 1020,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53936,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 74,
-            "temperature": -3.51,
-            "pressure": 99540,
-            "accelerationX": 573,
-            "accelerationY": 876,
-            "accelerationZ": 2,
-            "battery": 2881
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99485,
-            "accelerationX": 27,
-            "accelerationY": 32,
-            "accelerationZ": 1057,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -75,
-            "temperature": 23.67,
-            "humidity": 30.9625,
-            "pressure": 99455,
-            "accelerationX": -44,
-            "accelerationY": 20,
-            "accelerationZ": 1040,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45111,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -81,
-            "humidity": 74,
-            "temperature": -3.51,
-            "pressure": 99540,
-            "accelerationX": 571,
-            "accelerationY": 876,
-            "accelerationZ": 1,
-            "battery": 2881
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -70,
-            "temperature": 23.35,
-            "humidity": 30.2025,
-            "pressure": 99486,
-            "accelerationX": 28,
-            "accelerationY": -28,
-            "accelerationZ": 1024,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53937,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99485,
-            "accelerationX": 28,
-            "accelerationY": 34,
-            "accelerationZ": 1055,
-            "battery": 2977
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 74,
-            "temperature": -3.51,
-            "pressure": 99540,
-            "accelerationX": 572,
-            "accelerationY": 876,
-            "accelerationZ": 3,
-            "battery": 2887
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -75,
-            "temperature": 23.67,
-            "humidity": 30.9625,
-            "pressure": 99456,
-            "accelerationX": -44,
-            "accelerationY": 16,
-            "accelerationZ": 1032,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45112,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -75,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99485,
-            "accelerationX": 31,
-            "accelerationY": 33,
-            "accelerationZ": 1054,
-            "battery": 2989
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -82,
-            "temperature": 22.96,
-            "humidity": 28.995,
-            "pressure": 99466,
-            "accelerationX": -16,
-            "accelerationY": -16,
-            "accelerationZ": 1028,
-            "battery": 2953,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 46016,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -74,
-            "temperature": 21.23,
-            "humidity": 26.2675,
-            "pressure": 99517,
-            "accelerationX": 20,
-            "accelerationY": -8,
-            "accelerationZ": 1064,
-            "battery": 2983,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1981,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -72,
-            "temperature": 23.35,
-            "humidity": 30.2025,
-            "pressure": 99487,
-            "accelerationX": 24,
-            "accelerationY": -24,
-            "accelerationZ": 1016,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53938,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -84,
-            "humidity": 74,
-            "temperature": -3.51,
-            "pressure": 99541,
-            "accelerationX": 572,
-            "accelerationY": 877,
-            "accelerationZ": -2,
-            "battery": 2881
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -83,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99485,
-            "accelerationX": 30,
-            "accelerationY": 34,
-            "accelerationZ": 1061,
-            "battery": 2989
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -74,
-            "temperature": 21.23,
-            "humidity": 26.28,
-            "pressure": 99518,
-            "accelerationX": 24,
-            "accelerationY": 0,
-            "accelerationZ": 1056,
-            "battery": 2983,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1982,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -67,
-            "temperature": 23.35,
-            "humidity": 30.2125,
-            "pressure": 99487,
-            "accelerationX": 32,
-            "accelerationY": -32,
-            "accelerationZ": 1032,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53939,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -85,
-            "humidity": 74,
-            "temperature": -3.51,
-            "pressure": 99541,
-            "accelerationX": 569,
-            "accelerationY": 876,
-            "accelerationZ": 2,
-            "battery": 2875
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -75,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99486,
-            "accelerationX": 29,
-            "accelerationY": 36,
-            "accelerationZ": 1062,
-            "battery": 2971
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -79,
-            "temperature": 23.67,
-            "humidity": 30.9625,
-            "pressure": 99456,
-            "accelerationX": -48,
-            "accelerationY": 16,
-            "accelerationZ": 1032,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45114,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C4:28:50:6E:A1:23",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -78,
-            "temperature": 21.23,
-            "humidity": 26.28,
-            "pressure": 99518,
-            "accelerationX": 24,
-            "accelerationY": 0,
-            "accelerationZ": 1060,
-            "battery": 2983,
-            "txPower": 4,
-            "movementCounter": 208,
-            "measurementSequenceNumber": 1983,
-            "mac": "C4:28:50:6E:A1:23"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -67,
-            "temperature": 23.35,
-            "humidity": 30.2125,
-            "pressure": 99487,
-            "accelerationX": 32,
-            "accelerationY": -32,
-            "accelerationZ": 1020,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53940,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "E8:C7:45:4D:10:FA",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -81,
-            "temperature": 23.67,
-            "humidity": 30.9625,
-            "pressure": 99456,
-            "accelerationX": -44,
-            "accelerationY": 20,
-            "accelerationZ": 1036,
-            "battery": 3037,
-            "txPower": 4,
-            "movementCounter": 180,
-            "measurementSequenceNumber": 45115,
-            "mac": "E8:C7:45:4D:10:FA"
-        }
-    },
-    {
-        "tagid": "C8:72:FE:3B:23:F8",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -81,
-            "humidity": 74,
-            "temperature": -3.51,
-            "pressure": 99541,
-            "accelerationX": 568,
-            "accelerationY": 877,
-            "accelerationZ": 2,
-            "battery": 2887
-        }
-    },
-    {
-        "tagid": "C8:D9:E5:5C:7C:5B",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -75,
-            "temperature": 22.96,
-            "humidity": 28.9825,
-            "pressure": 99467,
-            "accelerationX": -20,
-            "accelerationY": -12,
-            "accelerationZ": 1028,
-            "battery": 2953,
-            "txPower": 4,
-            "movementCounter": 195,
-            "measurementSequenceNumber": 46019,
-            "mac": "C8:D9:E5:5C:7C:5B"
-        }
-    },
-    {
-        "tagid": "F3:BD:8D:7C:D7:7A",
-        "data": {
-            "dataFormat": 5,
-            "rssi": -67,
-            "temperature": 23.35,
-            "humidity": 30.2125,
-            "pressure": 99487,
-            "accelerationX": 28,
-            "accelerationY": -28,
-            "accelerationZ": 1028,
-            "battery": 3013,
-            "txPower": 4,
-            "movementCounter": 44,
-            "measurementSequenceNumber": 53941,
-            "mac": "F3:BD:8D:7C:D7:7A"
-        }
-    },
-    {
-        "tagid": "F3:D6:1E:54:FA:B6",
-        "data": {
-            "dataFormat": 3,
-            "rssi": -76,
-            "humidity": 29,
-            "temperature": 22.57,
-            "pressure": 99487,
-            "accelerationX": 30,
-            "accelerationY": 33,
-            "accelerationZ": 1058,
-            "battery": 2971
-        }
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -75,
+      "temperature": 23.67,
+      "humidity": 30.9625,
+      "pressure": 99455,
+      "accelerationX": -40,
+      "accelerationY": 28,
+      "accelerationZ": 1024,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45069,
+      "mac": "C2:2F:DA:0E:D1:60"
     }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -83,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99487,
+      "accelerationX": 30,
+      "accelerationY": 32,
+      "accelerationZ": 1053,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -70,
+      "temperature": 23.36,
+      "humidity": 30.2125,
+      "pressure": 99485,
+      "accelerationX": 28,
+      "accelerationY": -28,
+      "accelerationZ": 1028,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53895,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -80,
+      "humidity": 74,
+      "temperature": -3.49,
+      "pressure": 99541,
+      "accelerationX": 569,
+      "accelerationY": 879,
+      "accelerationZ": 3,
+      "battery": 2827
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -75,
+      "temperature": 22.96,
+      "humidity": 28.995,
+      "pressure": 99465,
+      "accelerationX": -20,
+      "accelerationY": -16,
+      "accelerationZ": 1024,
+      "battery": 2953,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 45974,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -70,
+      "temperature": 23.36,
+      "humidity": 30.225,
+      "pressure": 99486,
+      "accelerationX": 32,
+      "accelerationY": -28,
+      "accelerationZ": 1024,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53896,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -75,
+      "temperature": 21.23,
+      "humidity": 26.2675,
+      "pressure": 99517,
+      "accelerationX": 24,
+      "accelerationY": -4,
+      "accelerationZ": 1056,
+      "battery": 2995,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1939,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -83,
+      "humidity": 74,
+      "temperature": -3.49,
+      "pressure": 99541,
+      "accelerationX": 575,
+      "accelerationY": 881,
+      "accelerationZ": 2,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99487,
+      "accelerationX": 31,
+      "accelerationY": 31,
+      "accelerationZ": 1055,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -79,
+      "temperature": 23.67,
+      "humidity": 30.95,
+      "pressure": 99455,
+      "accelerationX": -40,
+      "accelerationY": 16,
+      "accelerationZ": 1024,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45071,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -76,
+      "temperature": 22.97,
+      "humidity": 28.9825,
+      "pressure": 99465,
+      "accelerationX": -16,
+      "accelerationY": -8,
+      "accelerationZ": 1020,
+      "battery": 2953,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 45975,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -78,
+      "temperature": 21.23,
+      "humidity": 26.28,
+      "pressure": 99517,
+      "accelerationX": 28,
+      "accelerationY": 4,
+      "accelerationZ": 1064,
+      "battery": 2995,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1940,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99487,
+      "accelerationX": 30,
+      "accelerationY": 34,
+      "accelerationZ": 1055,
+      "battery": 2971
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -81,
+      "temperature": 23.67,
+      "humidity": 30.9625,
+      "pressure": 99455,
+      "accelerationX": -44,
+      "accelerationY": 20,
+      "accelerationZ": 1024,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45072,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 74,
+      "temperature": -3.49,
+      "pressure": 99541,
+      "accelerationX": 573,
+      "accelerationY": 879,
+      "accelerationZ": 1,
+      "battery": 2887
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99487,
+      "accelerationX": 30,
+      "accelerationY": 33,
+      "accelerationZ": 1058,
+      "battery": 2989
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -79,
+      "temperature": 21.23,
+      "humidity": 26.28,
+      "pressure": 99518,
+      "accelerationX": 16,
+      "accelerationY": -4,
+      "accelerationZ": 1060,
+      "battery": 2995,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1941,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -71,
+      "temperature": 23.36,
+      "humidity": 30.2375,
+      "pressure": 99486,
+      "accelerationX": 24,
+      "accelerationY": -28,
+      "accelerationZ": 1024,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53898,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -80,
+      "humidity": 74,
+      "temperature": -3.49,
+      "pressure": 99541,
+      "accelerationX": 573,
+      "accelerationY": 879,
+      "accelerationZ": 0,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -81,
+      "temperature": 23.67,
+      "humidity": 30.9725,
+      "pressure": 99456,
+      "accelerationX": -40,
+      "accelerationY": 16,
+      "accelerationZ": 1040,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45073,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -73,
+      "temperature": 23.36,
+      "humidity": 30.225,
+      "pressure": 99486,
+      "accelerationX": 28,
+      "accelerationY": -32,
+      "accelerationZ": 1016,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53899,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99487,
+      "accelerationX": 27,
+      "accelerationY": 33,
+      "accelerationZ": 1057,
+      "battery": 2989
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -75,
+      "temperature": 23.67,
+      "humidity": 30.9625,
+      "pressure": 99456,
+      "accelerationX": -48,
+      "accelerationY": 16,
+      "accelerationZ": 1032,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45074,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -82,
+      "temperature": 22.96,
+      "humidity": 28.9825,
+      "pressure": 99466,
+      "accelerationX": -20,
+      "accelerationY": -8,
+      "accelerationZ": 1024,
+      "battery": 2947,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 45978,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -74,
+      "temperature": 21.24,
+      "humidity": 26.28,
+      "pressure": 99518,
+      "accelerationX": 28,
+      "accelerationY": 4,
+      "accelerationZ": 1056,
+      "battery": 2995,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1943,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -81,
+      "humidity": 74,
+      "temperature": -3.49,
+      "pressure": 99542,
+      "accelerationX": 573,
+      "accelerationY": 883,
+      "accelerationZ": 6,
+      "battery": 2881
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -83,
+      "humidity": 74,
+      "temperature": -3.49,
+      "pressure": 99542,
+      "accelerationX": 573,
+      "accelerationY": 880,
+      "accelerationZ": 2,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99487,
+      "accelerationX": 31,
+      "accelerationY": 35,
+      "accelerationZ": 1055,
+      "battery": 2983
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -81,
+      "humidity": 74,
+      "temperature": -3.49,
+      "pressure": 99542,
+      "accelerationX": 574,
+      "accelerationY": 880,
+      "accelerationZ": 3,
+      "battery": 2881
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -79,
+      "temperature": 23.67,
+      "humidity": 30.95,
+      "pressure": 99456,
+      "accelerationX": -36,
+      "accelerationY": 20,
+      "accelerationZ": 1028,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45076,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -85,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99541,
+      "accelerationX": 572,
+      "accelerationY": 879,
+      "accelerationZ": 5,
+      "battery": 2881
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -80,
+      "temperature": 23.67,
+      "humidity": 30.9625,
+      "pressure": 99457,
+      "accelerationX": -44,
+      "accelerationY": 16,
+      "accelerationZ": 1028,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45077,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -76,
+      "temperature": 22.97,
+      "humidity": 28.9825,
+      "pressure": 99467,
+      "accelerationX": -12,
+      "accelerationY": -20,
+      "accelerationZ": 1020,
+      "battery": 2947,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 45981,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -71,
+      "temperature": 23.36,
+      "humidity": 30.225,
+      "pressure": 99486,
+      "accelerationX": 28,
+      "accelerationY": -32,
+      "accelerationZ": 1020,
+      "battery": 3007,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53903,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99487,
+      "accelerationX": 27,
+      "accelerationY": 31,
+      "accelerationZ": 1054,
+      "battery": 2983
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -81,
+      "temperature": 23.67,
+      "humidity": 30.9625,
+      "pressure": 99457,
+      "accelerationX": -44,
+      "accelerationY": 12,
+      "accelerationZ": 1028,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45078,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -81,
+      "temperature": 22.97,
+      "humidity": 28.9825,
+      "pressure": 99467,
+      "accelerationX": -20,
+      "accelerationY": -16,
+      "accelerationZ": 1016,
+      "battery": 2947,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 45982,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -74,
+      "temperature": 21.23,
+      "humidity": 26.29,
+      "pressure": 99519,
+      "accelerationX": 20,
+      "accelerationY": 0,
+      "accelerationZ": 1048,
+      "battery": 2977,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1947,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -74,
+      "temperature": 23.36,
+      "humidity": 30.2125,
+      "pressure": 99486,
+      "accelerationX": 28,
+      "accelerationY": -24,
+      "accelerationZ": 1024,
+      "battery": 3007,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53904,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -85,
+      "humidity": 74,
+      "temperature": -3.49,
+      "pressure": 99541,
+      "accelerationX": 572,
+      "accelerationY": 881,
+      "accelerationZ": 5,
+      "battery": 2881
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -83,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99487,
+      "accelerationX": 27,
+      "accelerationY": 27,
+      "accelerationZ": 1055,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -76,
+      "temperature": 23.67,
+      "humidity": 30.9725,
+      "pressure": 99457,
+      "accelerationX": -44,
+      "accelerationY": 8,
+      "accelerationZ": 1032,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45079,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -81,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99541,
+      "accelerationX": 572,
+      "accelerationY": 882,
+      "accelerationZ": 6,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -74,
+      "temperature": 21.23,
+      "humidity": 26.29,
+      "pressure": 99519,
+      "accelerationX": 20,
+      "accelerationY": -12,
+      "accelerationZ": 1068,
+      "battery": 2977,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1948,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -73,
+      "temperature": 23.36,
+      "humidity": 30.225,
+      "pressure": 99486,
+      "accelerationX": 24,
+      "accelerationY": -20,
+      "accelerationZ": 1024,
+      "battery": 3007,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53905,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99487,
+      "accelerationX": 26,
+      "accelerationY": 30,
+      "accelerationZ": 1057,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99541,
+      "accelerationX": 571,
+      "accelerationY": 880,
+      "accelerationZ": 1,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -75,
+      "temperature": 23.67,
+      "humidity": 30.9625,
+      "pressure": 99457,
+      "accelerationX": -40,
+      "accelerationY": 16,
+      "accelerationZ": 1032,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45080,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99487,
+      "accelerationX": 27,
+      "accelerationY": 28,
+      "accelerationZ": 1053,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -75,
+      "temperature": 22.97,
+      "humidity": 28.9825,
+      "pressure": 99467,
+      "accelerationX": -16,
+      "accelerationY": -16,
+      "accelerationZ": 1024,
+      "battery": 2947,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 45984,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -78,
+      "temperature": 21.23,
+      "humidity": 26.28,
+      "pressure": 99519,
+      "accelerationX": 28,
+      "accelerationY": -4,
+      "accelerationZ": 1068,
+      "battery": 2977,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1949,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99541,
+      "accelerationX": 571,
+      "accelerationY": 885,
+      "accelerationZ": 1,
+      "battery": 2881
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99487,
+      "accelerationX": 27,
+      "accelerationY": 28,
+      "accelerationZ": 1051,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -76,
+      "temperature": 23.67,
+      "humidity": 30.9625,
+      "pressure": 99456,
+      "accelerationX": -36,
+      "accelerationY": 20,
+      "accelerationZ": 1036,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45081,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99542,
+      "accelerationX": 571,
+      "accelerationY": 881,
+      "accelerationZ": -2,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99487,
+      "accelerationX": 28,
+      "accelerationY": 30,
+      "accelerationZ": 1052,
+      "battery": 2989
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -80,
+      "temperature": 23.67,
+      "humidity": 30.95,
+      "pressure": 99456,
+      "accelerationX": -44,
+      "accelerationY": 20,
+      "accelerationZ": 1032,
+      "battery": 3049,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45082,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -82,
+      "temperature": 22.97,
+      "humidity": 28.9825,
+      "pressure": 99467,
+      "accelerationX": -16,
+      "accelerationY": -20,
+      "accelerationZ": 1028,
+      "battery": 2959,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 45986,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -81,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99542,
+      "accelerationX": 573,
+      "accelerationY": 881,
+      "accelerationZ": 0,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -73,
+      "temperature": 23.36,
+      "humidity": 30.225,
+      "pressure": 99486,
+      "accelerationX": 28,
+      "accelerationY": -24,
+      "accelerationZ": 1028,
+      "battery": 3007,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53908,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99487,
+      "accelerationX": 27,
+      "accelerationY": 31,
+      "accelerationZ": 1054,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99542,
+      "accelerationX": 574,
+      "accelerationY": 879,
+      "accelerationZ": 3,
+      "battery": 2887
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -80,
+      "temperature": 23.67,
+      "humidity": 30.9625,
+      "pressure": 99456,
+      "accelerationX": -44,
+      "accelerationY": 28,
+      "accelerationZ": 1036,
+      "battery": 3049,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45083,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99487,
+      "accelerationX": 30,
+      "accelerationY": 29,
+      "accelerationZ": 1051,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -82,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99542,
+      "accelerationX": 574,
+      "accelerationY": 881,
+      "accelerationZ": 2,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99487,
+      "accelerationX": 36,
+      "accelerationY": 33,
+      "accelerationZ": 1053,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -75,
+      "temperature": 22.97,
+      "humidity": 28.9825,
+      "pressure": 99467,
+      "accelerationX": -24,
+      "accelerationY": -16,
+      "accelerationZ": 1024,
+      "battery": 2959,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 45988,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -67,
+      "temperature": 23.36,
+      "humidity": 30.2125,
+      "pressure": 99486,
+      "accelerationX": 32,
+      "accelerationY": -20,
+      "accelerationZ": 1020,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53910,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -74,
+      "temperature": 21.23,
+      "humidity": 26.28,
+      "pressure": 99519,
+      "accelerationX": 28,
+      "accelerationY": -4,
+      "accelerationZ": 1060,
+      "battery": 2977,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1953,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99541,
+      "accelerationX": 572,
+      "accelerationY": 880,
+      "accelerationZ": 2,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -85,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99487,
+      "accelerationX": 35,
+      "accelerationY": 32,
+      "accelerationZ": 1053,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -76,
+      "temperature": 23.67,
+      "humidity": 30.9725,
+      "pressure": 99456,
+      "accelerationX": -44,
+      "accelerationY": 16,
+      "accelerationZ": 1040,
+      "battery": 3049,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45085,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -75,
+      "temperature": 22.97,
+      "humidity": 28.995,
+      "pressure": 99466,
+      "accelerationX": -12,
+      "accelerationY": -20,
+      "accelerationZ": 1028,
+      "battery": 2959,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 45989,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -74,
+      "temperature": 21.23,
+      "humidity": 26.28,
+      "pressure": 99519,
+      "accelerationX": 24,
+      "accelerationY": -4,
+      "accelerationZ": 1056,
+      "battery": 2995,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1954,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -67,
+      "temperature": 23.36,
+      "humidity": 30.2125,
+      "pressure": 99485,
+      "accelerationX": 28,
+      "accelerationY": -24,
+      "accelerationZ": 1020,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53911,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -81,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99541,
+      "accelerationX": 568,
+      "accelerationY": 882,
+      "accelerationZ": 0,
+      "battery": 2887
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99487,
+      "accelerationX": 34,
+      "accelerationY": 33,
+      "accelerationZ": 1051,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -80,
+      "temperature": 23.67,
+      "humidity": 30.9725,
+      "pressure": 99455,
+      "accelerationX": -44,
+      "accelerationY": 16,
+      "accelerationZ": 1036,
+      "battery": 3049,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45086,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99541,
+      "accelerationX": 568,
+      "accelerationY": 879,
+      "accelerationZ": 2,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -80,
+      "temperature": 22.96,
+      "humidity": 28.9725,
+      "pressure": 99466,
+      "accelerationX": -16,
+      "accelerationY": -16,
+      "accelerationZ": 1020,
+      "battery": 2959,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 45990,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -79,
+      "temperature": 21.23,
+      "humidity": 26.28,
+      "pressure": 99519,
+      "accelerationX": 20,
+      "accelerationY": -4,
+      "accelerationZ": 1064,
+      "battery": 2995,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1955,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -70,
+      "temperature": 23.36,
+      "humidity": 30.2025,
+      "pressure": 99485,
+      "accelerationX": 28,
+      "accelerationY": -24,
+      "accelerationZ": 1028,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53912,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -83,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99487,
+      "accelerationX": 34,
+      "accelerationY": 33,
+      "accelerationZ": 1052,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -80,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99541,
+      "accelerationX": 568,
+      "accelerationY": 883,
+      "accelerationZ": 4,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99487,
+      "accelerationX": 31,
+      "accelerationY": 36,
+      "accelerationZ": 1053,
+      "battery": 2971
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -81,
+      "temperature": 22.97,
+      "humidity": 28.995,
+      "pressure": 99466,
+      "accelerationX": -16,
+      "accelerationY": -12,
+      "accelerationZ": 1024,
+      "battery": 2959,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 45991,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -71,
+      "temperature": 23.36,
+      "humidity": 30.2125,
+      "pressure": 99485,
+      "accelerationX": 32,
+      "accelerationY": -28,
+      "accelerationZ": 1032,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53913,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99486,
+      "accelerationX": 27,
+      "accelerationY": 36,
+      "accelerationZ": 1056,
+      "battery": 2983
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -75,
+      "temperature": 23.67,
+      "humidity": 30.9625,
+      "pressure": 99455,
+      "accelerationX": -40,
+      "accelerationY": 16,
+      "accelerationZ": 1028,
+      "battery": 3049,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45088,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -81,
+      "temperature": 22.96,
+      "humidity": 28.9825,
+      "pressure": 99466,
+      "accelerationX": -16,
+      "accelerationY": -12,
+      "accelerationZ": 1028,
+      "battery": 2959,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 45992,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -74,
+      "temperature": 21.23,
+      "humidity": 26.29,
+      "pressure": 99518,
+      "accelerationX": 24,
+      "accelerationY": 0,
+      "accelerationZ": 1052,
+      "battery": 2995,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1957,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -71,
+      "temperature": 23.36,
+      "humidity": 30.2025,
+      "pressure": 99485,
+      "accelerationX": 24,
+      "accelerationY": -28,
+      "accelerationZ": 1028,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53914,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99486,
+      "accelerationX": 27,
+      "accelerationY": 35,
+      "accelerationZ": 1056,
+      "battery": 2971
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -75,
+      "temperature": 23.67,
+      "humidity": 30.95,
+      "pressure": 99455,
+      "accelerationX": -40,
+      "accelerationY": 16,
+      "accelerationZ": 1040,
+      "battery": 3049,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45089,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -74,
+      "temperature": 21.23,
+      "humidity": 26.28,
+      "pressure": 99518,
+      "accelerationX": 20,
+      "accelerationY": -4,
+      "accelerationZ": 1064,
+      "battery": 2995,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1958,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -73,
+      "temperature": 23.36,
+      "humidity": 30.225,
+      "pressure": 99485,
+      "accelerationX": 24,
+      "accelerationY": -16,
+      "accelerationZ": 1028,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53915,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99540,
+      "accelerationX": 571,
+      "accelerationY": 878,
+      "accelerationZ": -1,
+      "battery": 2881
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -79,
+      "temperature": 23.67,
+      "humidity": 30.9725,
+      "pressure": 99454,
+      "accelerationX": -44,
+      "accelerationY": 16,
+      "accelerationZ": 1032,
+      "battery": 3049,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45090,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -78,
+      "temperature": 21.23,
+      "humidity": 26.28,
+      "pressure": 99517,
+      "accelerationX": 24,
+      "accelerationY": -4,
+      "accelerationZ": 1064,
+      "battery": 2995,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1959,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99485,
+      "accelerationX": 31,
+      "accelerationY": 32,
+      "accelerationZ": 1054,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99484,
+      "accelerationX": 29,
+      "accelerationY": 29,
+      "accelerationZ": 1053,
+      "battery": 2989
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -79,
+      "temperature": 23.67,
+      "humidity": 30.95,
+      "pressure": 99454,
+      "accelerationX": -36,
+      "accelerationY": 20,
+      "accelerationZ": 1032,
+      "battery": 3043,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45091,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -75,
+      "temperature": 22.96,
+      "humidity": 28.995,
+      "pressure": 99465,
+      "accelerationX": -20,
+      "accelerationY": -12,
+      "accelerationZ": 1032,
+      "battery": 2959,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 45995,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -78,
+      "temperature": 21.23,
+      "humidity": 26.2675,
+      "pressure": 99517,
+      "accelerationX": 24,
+      "accelerationY": 4,
+      "accelerationZ": 1060,
+      "battery": 2995,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1960,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -67,
+      "temperature": 23.35,
+      "humidity": 30.2025,
+      "pressure": 99484,
+      "accelerationX": 28,
+      "accelerationY": -24,
+      "accelerationZ": 1024,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53917,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -81,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99540,
+      "accelerationX": 571,
+      "accelerationY": 879,
+      "accelerationZ": 1,
+      "battery": 2887
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -77,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99484,
+      "accelerationX": 32,
+      "accelerationY": 30,
+      "accelerationZ": 1054,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -81,
+      "temperature": 23.67,
+      "humidity": 30.9725,
+      "pressure": 99454,
+      "accelerationX": -36,
+      "accelerationY": 16,
+      "accelerationZ": 1028,
+      "battery": 3043,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45092,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -75,
+      "temperature": 22.96,
+      "humidity": 28.995,
+      "pressure": 99465,
+      "accelerationX": -24,
+      "accelerationY": -20,
+      "accelerationZ": 1016,
+      "battery": 2959,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 45996,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -70,
+      "temperature": 23.35,
+      "humidity": 30.2125,
+      "pressure": 99484,
+      "accelerationX": 28,
+      "accelerationY": -28,
+      "accelerationZ": 1028,
+      "battery": 3001,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53918,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -83,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99484,
+      "accelerationX": 32,
+      "accelerationY": 35,
+      "accelerationZ": 1054,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -81,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99539,
+      "accelerationX": 571,
+      "accelerationY": 880,
+      "accelerationZ": 2,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -76,
+      "temperature": 22.96,
+      "humidity": 28.995,
+      "pressure": 99464,
+      "accelerationX": -20,
+      "accelerationY": -12,
+      "accelerationZ": 1028,
+      "battery": 2959,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 45997,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -75,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99484,
+      "accelerationX": 32,
+      "accelerationY": 32,
+      "accelerationZ": 1050,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -85,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99539,
+      "accelerationX": 569,
+      "accelerationY": 880,
+      "accelerationZ": 3,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -81,
+      "temperature": 23.67,
+      "humidity": 30.9725,
+      "pressure": 99454,
+      "accelerationX": -48,
+      "accelerationY": 16,
+      "accelerationZ": 1040,
+      "battery": 3043,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45094,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99483,
+      "accelerationX": 29,
+      "accelerationY": 31,
+      "accelerationZ": 1053,
+      "battery": 2971
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -81,
+      "temperature": 22.96,
+      "humidity": 28.995,
+      "pressure": 99464,
+      "accelerationX": -20,
+      "accelerationY": -4,
+      "accelerationZ": 1024,
+      "battery": 2959,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 45998,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -74,
+      "temperature": 21.23,
+      "humidity": 26.28,
+      "pressure": 99516,
+      "accelerationX": 24,
+      "accelerationY": 0,
+      "accelerationZ": 1056,
+      "battery": 2983,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1963,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -80,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99539,
+      "accelerationX": 571,
+      "accelerationY": 881,
+      "accelerationZ": 6,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99483,
+      "accelerationX": 27,
+      "accelerationY": 31,
+      "accelerationZ": 1058,
+      "battery": 2983
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -81,
+      "temperature": 22.96,
+      "humidity": 28.995,
+      "pressure": 99465,
+      "accelerationX": -20,
+      "accelerationY": -16,
+      "accelerationZ": 1024,
+      "battery": 2959,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 45999,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -74,
+      "temperature": 21.23,
+      "humidity": 26.28,
+      "pressure": 99515,
+      "accelerationX": 20,
+      "accelerationY": -12,
+      "accelerationZ": 1056,
+      "battery": 2983,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1964,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -72,
+      "temperature": 23.35,
+      "humidity": 30.2125,
+      "pressure": 99484,
+      "accelerationX": 24,
+      "accelerationY": -24,
+      "accelerationZ": 1032,
+      "battery": 3001,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53921,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99539,
+      "accelerationX": 570,
+      "accelerationY": 880,
+      "accelerationZ": 7,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99484,
+      "accelerationX": 30,
+      "accelerationY": 29,
+      "accelerationZ": 1056,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -79,
+      "temperature": 23.67,
+      "humidity": 30.95,
+      "pressure": 99454,
+      "accelerationX": -40,
+      "accelerationY": 20,
+      "accelerationZ": 1024,
+      "battery": 3043,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45096,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -81,
+      "temperature": 22.96,
+      "humidity": 28.9825,
+      "pressure": 99465,
+      "accelerationX": -16,
+      "accelerationY": -12,
+      "accelerationZ": 1020,
+      "battery": 2959,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 46000,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -74,
+      "temperature": 21.23,
+      "humidity": 26.28,
+      "pressure": 99515,
+      "accelerationX": 24,
+      "accelerationY": -4,
+      "accelerationZ": 1056,
+      "battery": 2983,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1965,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -67,
+      "temperature": 23.35,
+      "humidity": 30.2125,
+      "pressure": 99484,
+      "accelerationX": 32,
+      "accelerationY": -32,
+      "accelerationZ": 1028,
+      "battery": 3001,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53922,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -81,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99539,
+      "accelerationX": 574,
+      "accelerationY": 882,
+      "accelerationZ": 2,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -79,
+      "temperature": 23.67,
+      "humidity": 30.9625,
+      "pressure": 99454,
+      "accelerationX": -40,
+      "accelerationY": 20,
+      "accelerationZ": 1032,
+      "battery": 3043,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45097,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99539,
+      "accelerationX": 570,
+      "accelerationY": 879,
+      "accelerationZ": 3,
+      "battery": 2881
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -79,
+      "temperature": 21.23,
+      "humidity": 26.2675,
+      "pressure": 99515,
+      "accelerationX": 32,
+      "accelerationY": 0,
+      "accelerationZ": 1064,
+      "battery": 2983,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1966,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -67,
+      "temperature": 23.35,
+      "humidity": 30.2025,
+      "pressure": 99485,
+      "accelerationX": 28,
+      "accelerationY": -32,
+      "accelerationZ": 1028,
+      "battery": 3001,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53923,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -81,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99539,
+      "accelerationX": 571,
+      "accelerationY": 878,
+      "accelerationZ": 7,
+      "battery": 2881
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -81,
+      "temperature": 23.67,
+      "humidity": 30.9625,
+      "pressure": 99454,
+      "accelerationX": -36,
+      "accelerationY": 20,
+      "accelerationZ": 1036,
+      "battery": 3043,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45098,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -85,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99484,
+      "accelerationX": 28,
+      "accelerationY": 32,
+      "accelerationZ": 1053,
+      "battery": 2971
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -72,
+      "temperature": 23.35,
+      "humidity": 30.2025,
+      "pressure": 99485,
+      "accelerationX": 24,
+      "accelerationY": -28,
+      "accelerationZ": 1020,
+      "battery": 3001,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53924,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -78,
+      "temperature": 21.23,
+      "humidity": 26.28,
+      "pressure": 99515,
+      "accelerationX": 24,
+      "accelerationY": 0,
+      "accelerationZ": 1060,
+      "battery": 2983,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1967,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -85,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99540,
+      "accelerationX": 572,
+      "accelerationY": 878,
+      "accelerationZ": 4,
+      "battery": 2887
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99485,
+      "accelerationX": 28,
+      "accelerationY": 31,
+      "accelerationZ": 1053,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -81,
+      "temperature": 23.67,
+      "humidity": 30.95,
+      "pressure": 99454,
+      "accelerationX": -36,
+      "accelerationY": 20,
+      "accelerationZ": 1032,
+      "battery": 3043,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45099,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -85,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99539,
+      "accelerationX": 573,
+      "accelerationY": 877,
+      "accelerationZ": 1,
+      "battery": 2881
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -75,
+      "temperature": 22.96,
+      "humidity": 28.9825,
+      "pressure": 99465,
+      "accelerationX": -16,
+      "accelerationY": -12,
+      "accelerationZ": 1028,
+      "battery": 2953,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 46004,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -82,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99539,
+      "accelerationX": 570,
+      "accelerationY": 877,
+      "accelerationZ": -2,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99484,
+      "accelerationX": 28,
+      "accelerationY": 34,
+      "accelerationZ": 1053,
+      "battery": 2971
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99539,
+      "accelerationX": 573,
+      "accelerationY": 880,
+      "accelerationZ": -1,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -83,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99485,
+      "accelerationX": 28,
+      "accelerationY": 31,
+      "accelerationZ": 1056,
+      "battery": 2989
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -81,
+      "temperature": 22.96,
+      "humidity": 28.995,
+      "pressure": 99465,
+      "accelerationX": -16,
+      "accelerationY": -8,
+      "accelerationZ": 1028,
+      "battery": 2953,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 46005,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -67,
+      "temperature": 23.35,
+      "humidity": 30.2025,
+      "pressure": 99485,
+      "accelerationX": 28,
+      "accelerationY": -28,
+      "accelerationZ": 1024,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53927,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -81,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99540,
+      "accelerationX": 572,
+      "accelerationY": 879,
+      "accelerationZ": 1,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99484,
+      "accelerationX": 30,
+      "accelerationY": 35,
+      "accelerationZ": 1056,
+      "battery": 2995
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -80,
+      "temperature": 23.67,
+      "humidity": 30.9625,
+      "pressure": 99455,
+      "accelerationX": -44,
+      "accelerationY": 12,
+      "accelerationZ": 1040,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45102,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -66,
+      "temperature": 23.35,
+      "humidity": 30.2025,
+      "pressure": 99485,
+      "accelerationX": 32,
+      "accelerationY": -28,
+      "accelerationZ": 1028,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53928,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -85,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99540,
+      "accelerationX": 572,
+      "accelerationY": 879,
+      "accelerationZ": 1,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -83,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99484,
+      "accelerationX": 28,
+      "accelerationY": 35,
+      "accelerationZ": 1056,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -79,
+      "temperature": 23.67,
+      "humidity": 30.95,
+      "pressure": 99455,
+      "accelerationX": -40,
+      "accelerationY": 20,
+      "accelerationZ": 1048,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45103,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -79,
+      "temperature": 21.23,
+      "humidity": 26.28,
+      "pressure": 99515,
+      "accelerationX": 20,
+      "accelerationY": -4,
+      "accelerationZ": 1060,
+      "battery": 2989,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1972,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -80,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99540,
+      "accelerationX": 570,
+      "accelerationY": 882,
+      "accelerationZ": 1,
+      "battery": 2887
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99484,
+      "accelerationX": 25,
+      "accelerationY": 33,
+      "accelerationZ": 1057,
+      "battery": 2989
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99540,
+      "accelerationX": 570,
+      "accelerationY": 883,
+      "accelerationZ": 4,
+      "battery": 2869
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -75,
+      "temperature": 22.96,
+      "humidity": 28.995,
+      "pressure": 99465,
+      "accelerationX": -20,
+      "accelerationY": -24,
+      "accelerationZ": 1028,
+      "battery": 2953,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 46008,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -78,
+      "temperature": 21.23,
+      "humidity": 26.28,
+      "pressure": 99515,
+      "accelerationX": 20,
+      "accelerationY": 0,
+      "accelerationZ": 1060,
+      "battery": 2989,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1973,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -71,
+      "temperature": 23.35,
+      "humidity": 30.2025,
+      "pressure": 99485,
+      "accelerationX": 32,
+      "accelerationY": -28,
+      "accelerationZ": 1024,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53930,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99484,
+      "accelerationX": 29,
+      "accelerationY": 32,
+      "accelerationZ": 1057,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -85,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99539,
+      "accelerationX": 571,
+      "accelerationY": 883,
+      "accelerationZ": 2,
+      "battery": 2881
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -80,
+      "temperature": 23.67,
+      "humidity": 30.95,
+      "pressure": 99454,
+      "accelerationX": -44,
+      "accelerationY": 20,
+      "accelerationZ": 1028,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45105,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99484,
+      "accelerationX": 29,
+      "accelerationY": 35,
+      "accelerationZ": 1053,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -71,
+      "temperature": 23.35,
+      "humidity": 30.2025,
+      "pressure": 99485,
+      "accelerationX": 16,
+      "accelerationY": -28,
+      "accelerationZ": 1024,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53931,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99539,
+      "accelerationX": 571,
+      "accelerationY": 882,
+      "accelerationZ": 4,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99485,
+      "accelerationX": 31,
+      "accelerationY": 33,
+      "accelerationZ": 1056,
+      "battery": 2989
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -76,
+      "temperature": 23.67,
+      "humidity": 30.95,
+      "pressure": 99454,
+      "accelerationX": -36,
+      "accelerationY": 20,
+      "accelerationZ": 1028,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45106,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -82,
+      "temperature": 22.96,
+      "humidity": 28.9825,
+      "pressure": 99465,
+      "accelerationX": -20,
+      "accelerationY": -12,
+      "accelerationZ": 1028,
+      "battery": 2953,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 46010,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99485,
+      "accelerationX": 34,
+      "accelerationY": 33,
+      "accelerationZ": 1053,
+      "battery": 2971
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -79,
+      "temperature": 23.67,
+      "humidity": 30.9725,
+      "pressure": 99455,
+      "accelerationX": -44,
+      "accelerationY": 20,
+      "accelerationZ": 1028,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45107,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -74,
+      "temperature": 21.23,
+      "humidity": 26.28,
+      "pressure": 99515,
+      "accelerationX": 12,
+      "accelerationY": 0,
+      "accelerationZ": 1060,
+      "battery": 2989,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1976,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -72,
+      "temperature": 23.35,
+      "humidity": 30.225,
+      "pressure": 99485,
+      "accelerationX": 20,
+      "accelerationY": -20,
+      "accelerationZ": 1020,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53933,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -79,
+      "temperature": 23.67,
+      "humidity": 30.95,
+      "pressure": 99455,
+      "accelerationX": -36,
+      "accelerationY": 16,
+      "accelerationZ": 1032,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45108,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -81,
+      "humidity": 74,
+      "temperature": -3.5,
+      "pressure": 99540,
+      "accelerationX": 570,
+      "accelerationY": 882,
+      "accelerationZ": 2,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99485,
+      "accelerationX": 29,
+      "accelerationY": 35,
+      "accelerationZ": 1057,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -78,
+      "temperature": 21.23,
+      "humidity": 26.28,
+      "pressure": 99515,
+      "accelerationX": 24,
+      "accelerationY": -4,
+      "accelerationZ": 1060,
+      "battery": 2989,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1977,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -73,
+      "temperature": 23.35,
+      "humidity": 30.225,
+      "pressure": 99485,
+      "accelerationX": 32,
+      "accelerationY": -24,
+      "accelerationZ": 1024,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53934,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 74,
+      "temperature": -3.51,
+      "pressure": 99539,
+      "accelerationX": 570,
+      "accelerationY": 878,
+      "accelerationZ": 0,
+      "battery": 2881
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99485,
+      "accelerationX": 31,
+      "accelerationY": 31,
+      "accelerationZ": 1061,
+      "battery": 2971
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -80,
+      "temperature": 23.67,
+      "humidity": 30.9625,
+      "pressure": 99455,
+      "accelerationX": -36,
+      "accelerationY": 16,
+      "accelerationZ": 1036,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45109,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -75,
+      "temperature": 22.96,
+      "humidity": 28.995,
+      "pressure": 99465,
+      "accelerationX": -16,
+      "accelerationY": -20,
+      "accelerationZ": 1028,
+      "battery": 2953,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 46013,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -79,
+      "temperature": 21.23,
+      "humidity": 26.28,
+      "pressure": 99516,
+      "accelerationX": 12,
+      "accelerationY": -4,
+      "accelerationZ": 1056,
+      "battery": 2989,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1978,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -67,
+      "temperature": 23.35,
+      "humidity": 30.225,
+      "pressure": 99486,
+      "accelerationX": 28,
+      "accelerationY": -24,
+      "accelerationZ": 1016,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53935,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -80,
+      "humidity": 74,
+      "temperature": -3.51,
+      "pressure": 99539,
+      "accelerationX": 571,
+      "accelerationY": 874,
+      "accelerationZ": 3,
+      "battery": 2893
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -77,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99485,
+      "accelerationX": 30,
+      "accelerationY": 36,
+      "accelerationZ": 1057,
+      "battery": 2971
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -75,
+      "temperature": 22.96,
+      "humidity": 28.995,
+      "pressure": 99465,
+      "accelerationX": -16,
+      "accelerationY": -20,
+      "accelerationZ": 1024,
+      "battery": 2953,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 46014,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -70,
+      "temperature": 23.35,
+      "humidity": 30.2125,
+      "pressure": 99486,
+      "accelerationX": 24,
+      "accelerationY": -28,
+      "accelerationZ": 1020,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53936,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 74,
+      "temperature": -3.51,
+      "pressure": 99540,
+      "accelerationX": 573,
+      "accelerationY": 876,
+      "accelerationZ": 2,
+      "battery": 2881
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99485,
+      "accelerationX": 27,
+      "accelerationY": 32,
+      "accelerationZ": 1057,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -75,
+      "temperature": 23.67,
+      "humidity": 30.9625,
+      "pressure": 99455,
+      "accelerationX": -44,
+      "accelerationY": 20,
+      "accelerationZ": 1040,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45111,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -81,
+      "humidity": 74,
+      "temperature": -3.51,
+      "pressure": 99540,
+      "accelerationX": 571,
+      "accelerationY": 876,
+      "accelerationZ": 1,
+      "battery": 2881
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -70,
+      "temperature": 23.35,
+      "humidity": 30.2025,
+      "pressure": 99486,
+      "accelerationX": 28,
+      "accelerationY": -28,
+      "accelerationZ": 1024,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53937,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99485,
+      "accelerationX": 28,
+      "accelerationY": 34,
+      "accelerationZ": 1055,
+      "battery": 2977
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 74,
+      "temperature": -3.51,
+      "pressure": 99540,
+      "accelerationX": 572,
+      "accelerationY": 876,
+      "accelerationZ": 3,
+      "battery": 2887
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -75,
+      "temperature": 23.67,
+      "humidity": 30.9625,
+      "pressure": 99456,
+      "accelerationX": -44,
+      "accelerationY": 16,
+      "accelerationZ": 1032,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45112,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -75,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99485,
+      "accelerationX": 31,
+      "accelerationY": 33,
+      "accelerationZ": 1054,
+      "battery": 2989
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -82,
+      "temperature": 22.96,
+      "humidity": 28.995,
+      "pressure": 99466,
+      "accelerationX": -16,
+      "accelerationY": -16,
+      "accelerationZ": 1028,
+      "battery": 2953,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 46016,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -74,
+      "temperature": 21.23,
+      "humidity": 26.2675,
+      "pressure": 99517,
+      "accelerationX": 20,
+      "accelerationY": -8,
+      "accelerationZ": 1064,
+      "battery": 2983,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1981,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -72,
+      "temperature": 23.35,
+      "humidity": 30.2025,
+      "pressure": 99487,
+      "accelerationX": 24,
+      "accelerationY": -24,
+      "accelerationZ": 1016,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53938,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -84,
+      "humidity": 74,
+      "temperature": -3.51,
+      "pressure": 99541,
+      "accelerationX": 572,
+      "accelerationY": 877,
+      "accelerationZ": -2,
+      "battery": 2881
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -83,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99485,
+      "accelerationX": 30,
+      "accelerationY": 34,
+      "accelerationZ": 1061,
+      "battery": 2989
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -74,
+      "temperature": 21.23,
+      "humidity": 26.28,
+      "pressure": 99518,
+      "accelerationX": 24,
+      "accelerationY": 0,
+      "accelerationZ": 1056,
+      "battery": 2983,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1982,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -67,
+      "temperature": 23.35,
+      "humidity": 30.2125,
+      "pressure": 99487,
+      "accelerationX": 32,
+      "accelerationY": -32,
+      "accelerationZ": 1032,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53939,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -85,
+      "humidity": 74,
+      "temperature": -3.51,
+      "pressure": 99541,
+      "accelerationX": 569,
+      "accelerationY": 876,
+      "accelerationZ": 2,
+      "battery": 2875
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -75,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99486,
+      "accelerationX": 29,
+      "accelerationY": 36,
+      "accelerationZ": 1062,
+      "battery": 2971
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -79,
+      "temperature": 23.67,
+      "humidity": 30.9625,
+      "pressure": 99456,
+      "accelerationX": -48,
+      "accelerationY": 16,
+      "accelerationZ": 1032,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45114,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C4:28:50:6E:A1:23",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -78,
+      "temperature": 21.23,
+      "humidity": 26.28,
+      "pressure": 99518,
+      "accelerationX": 24,
+      "accelerationY": 0,
+      "accelerationZ": 1060,
+      "battery": 2983,
+      "txPower": 4,
+      "movementCounter": 208,
+      "measurementSequenceNumber": 1983,
+      "mac": "C4:28:50:6E:A1:23"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -67,
+      "temperature": 23.35,
+      "humidity": 30.2125,
+      "pressure": 99487,
+      "accelerationX": 32,
+      "accelerationY": -32,
+      "accelerationZ": 1020,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53940,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -81,
+      "temperature": 23.67,
+      "humidity": 30.9625,
+      "pressure": 99456,
+      "accelerationX": -44,
+      "accelerationY": 20,
+      "accelerationZ": 1036,
+      "battery": 3037,
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45115,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
+    "tagid": "C8:72:FE:3B:23:F8",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -81,
+      "humidity": 74,
+      "temperature": -3.51,
+      "pressure": 99541,
+      "accelerationX": 568,
+      "accelerationY": 877,
+      "accelerationZ": 2,
+      "battery": 2887
+    }
+  },
+  {
+    "tagid": "C8:D9:E5:5C:7C:5B",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -75,
+      "temperature": 22.96,
+      "humidity": 28.9825,
+      "pressure": 99467,
+      "accelerationX": -20,
+      "accelerationY": -12,
+      "accelerationZ": 1028,
+      "battery": 2953,
+      "txPower": 4,
+      "movementCounter": 195,
+      "measurementSequenceNumber": 46019,
+      "mac": "C8:D9:E5:5C:7C:5B"
+    }
+  },
+  {
+    "tagid": "F3:BD:8D:7C:D7:7A",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -67,
+      "temperature": 23.35,
+      "humidity": 30.2125,
+      "pressure": 99487,
+      "accelerationX": 28,
+      "accelerationY": -28,
+      "accelerationZ": 1028,
+      "battery": 3013,
+      "txPower": 4,
+      "movementCounter": 44,
+      "measurementSequenceNumber": 53941,
+      "mac": "F3:BD:8D:7C:D7:7A"
+    }
+  },
+  {
+    "tagid": "F3:D6:1E:54:FA:B6",
+    "data": {
+      "dataFormat": 3,
+      "rssi": -76,
+      "humidity": 29,
+      "temperature": 22.57,
+      "pressure": 99487,
+      "accelerationX": 30,
+      "accelerationY": 33,
+      "accelerationZ": 1058,
+      "battery": 2971
+    }
+  }
 ]
