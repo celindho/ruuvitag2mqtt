@@ -57,6 +57,14 @@ function sendDataForTag(mac) {
   var data = getAveragedDataForTag(mac);
   var topic = deviceSettings.getTopicForMac(mac);
   mqtt.publish(topic, JSON.stringify(data));
+
+  var tasmotaTemperatureTopics =
+    deviceSettings.getTasmotaTemperatureTopicsByMac(mac);
+  if (tasmotaTemperatureTopics)
+    tasmotaTemperatureTopics.forEach((tasmotaTemperatureTopic) => {
+      mqtt.publish(tasmotaTemperatureTopic, `${data.temperature}`);
+    });
+
   reinitData(mac);
 }
 

@@ -34,9 +34,15 @@ function getTopicForMac(mac) {
   return `${settings.mqtt_topic_prefix}/${mac}/status`;
 }
 
+function getTasmotaTemperatureTopicsByMac(mac) {
+  var topics = getByMac(mac).tasmotaTemperatureTopics;
+  return Array.isArray(topics) || !topics ? topics : [topics];
+}
+
 module.exports = {
   getNameByMac: getNameByMac,
   getAreaByMac: getAreaByMac,
   getTopicForMac: getTopicForMac,
   getEscapedNameByMac: getEscapedNameByMac,
+  getTasmotaTemperatureTopicsByMac: getTasmotaTemperatureTopicsByMac,
 };
