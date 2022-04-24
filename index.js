@@ -2,8 +2,6 @@
 
 const { logger, settings } = require("./globals");
 
-const deviceSettings = require("./devicesettings");
-
 var listener;
 if (settings.useDummyData == "true") {
   listener = require("./dummy_listener");
@@ -23,6 +21,6 @@ logger.info("Settings: " + JSON.stringify(settings));
 listener.start(handleRuuviReading, discovery);
 
 setInterval(
-  checkAndSendOveragedData,
+  checkAndSendOveragedData, 
   Math.ceil((settings.maxWaitSeconds * 1000) / 10)
 );
