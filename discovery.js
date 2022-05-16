@@ -60,7 +60,8 @@ function handleRuuviTagDiscovery(mac) {
       {
         name: "RSSI",
         deviceClass: "signal_strength",
-        valueTemplate: "{{ value_json.rssi}}",
+        valueTemplate: "{{ value_json.rssi }}",
+        unitOfMeasurement: "dBm",
         entityCategory: "diagnostic",
         expire_after: settings.maxWaitSeconds * 2,
       },
