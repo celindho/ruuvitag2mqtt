@@ -47,7 +47,7 @@ function dataIsOverdue(mac) {
 function checkAndSendOveragedData() {
   for (const [mac, value] of Object.entries(valuemap)) {
     if (enoughtData(mac) || dataIsOverdue(mac)) {
-      console.log(`Data for mac ${mac} is overdue.`);
+      //console.log(`Data for mac ${mac} is overdue.`);
       sendDataForTag(mac);
     }
   }
