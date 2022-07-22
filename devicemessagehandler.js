@@ -41,13 +41,14 @@ function enoughtData(mac) {
 function dataIsOverdue(mac) {
   if (valuemap[mac].length == 0) return false;
 
+  logger.debug(`Data for mac ${mac} is overdue.`);
   return new Date() > nextSendForMac[mac];
 }
 
 function checkAndSendOveragedData() {
   for (const [mac, value] of Object.entries(valuemap)) {
     if (enoughtData(mac) || dataIsOverdue(mac)) {
-      //console.log(`Data for mac ${mac} is overdue.`);
+      logger.debug(`Data for mac ${mac} is sent.`);
       sendDataForTag(mac);
     }
   }
