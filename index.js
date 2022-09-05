@@ -9,7 +9,7 @@ if (settings.useDummyData == "true") {
   listener = require("./listener");
 }
 
-const discovery = require("./discovery");
+const handleRuuviDiscovery = require("./discoveryhandler");
 
 const {
   handleRuuviReading,
@@ -18,7 +18,7 @@ const {
 
 logger.info("Starting the Ruuvi2MQTT converter.");
 logger.info("Settings: " + JSON.stringify(settings));
-listener.start(handleRuuviReading, discovery);
+listener.start(handleRuuviReading, handleRuuviDiscovery);
 
 setInterval(
   checkAndSendOveragedData, 
