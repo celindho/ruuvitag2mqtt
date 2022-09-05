@@ -67,6 +67,12 @@ function getSettings() {
         type: String,
         defaultValue: process.cwd() + "/.config",
       },
+      {
+        name: "forwarding_mode",
+        alias: "f",
+        type: Boolean,
+        defaultValue: false,
+      },
     ];
 
     const args = commandLineArgs(argsDefinitions);

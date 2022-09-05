@@ -40,6 +40,25 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "Launch Program in Forwarding Mode (dummy data)",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/index.js",
+      "env": {
+        "useDummyData": "true"
+      },
+      "args": [
+        "--mqtt_host=192.168.1.173",
+        "--mqtt_topic_prefix=ruuvi_test",
+        //"--hass_autodiscovery_disable",
+        "--hass_autodiscovery_topic_prefix=homeassistant_test",
+        "--maxEntriesToAggregate=10",
+        "--maxWaitSeconds=150",
+        "--forwarding_mode"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "Debug MQTT",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/mqtt_test.js"
