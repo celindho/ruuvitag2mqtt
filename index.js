@@ -2,6 +2,8 @@
 
 const { logger, settings } = require("./globals");
 
+const mqtt = require("./mqtt");
+
 var listener;
 if (settings.useDummyData == "true") {
   listener = require("./dummy_listener");
@@ -26,12 +28,16 @@ if (settings.forwarding_mode) {
 }
 
 listener.start(handleRuuviReading, handleRuuviDiscovery);
+mqtt.publish(
+  `${settings.mqtt_topic_prefix}/broker/status`,
+  "Ruuvi2MQTT started."
+);
 
 if (checkAndSendOveragedData) {
-setInterval(
-  checkAndSendOveragedData, 
-  Math.ceil((settings.maxWaitSeconds * 1000) / 10)
-);
+  setInterval(
+    checkAndSendOveragedData,
+    Math.ceil((settings.maxWaitSeconds * 1000) / 10)
+  );
 }
 
 logger.info("Started the Ruuvi2MQTT converter.");

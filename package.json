@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start:test": "node index.js --mqtt_host=192.168.1.173 --mqtt_topic_prefix=ruuvi_test --hass_autodiscovery_topic_prefix=homeassistant_test --maxEntriesToAggregate=10 --maxWaitSeconds=150",
+    "start:test_fwd": "node index.js --mqtt_host=192.168.1.173 --mqtt_topic_prefix=ruuvi_test --hass_autodiscovery_topic_prefix=homeassistant_test --maxEntriesToAggregate=10 --maxWaitSeconds=150 --forwarding_mode",
     "start:prod": "node index.js --mqtt_host=192.168.1.173",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:local": "docker build --tag ruuvi-service .",
     "build:prod": "docker build -t celindho/ruuvi2mqtt-service:latest .",
     "upload:prod": "cat docker-password.txt | docker login --username celindho --password-stdin && docker push celindho/ruuvi2mqtt-service:latest",
     "mount:local": "docker run -d --name=ruuvi-test --restart=always --net=host --device=/dev/ttyAMA0 --env mqtt_host=192.168.1.173 --env mqtt_topic_prefix=ruuvi_test --env hass_autodiscovery_topic_prefix=homeassistant_test --env maxEntriesToAggregate=10 --env maxWaitSeconds=150 -v /home/pi/ruuvi2mqtt/.config/test:/config ruuvi-service",
+    "mount:local_fwd": "docker run -d --name=ruuvi-test --restart=always --net=host --device=/dev/ttyAMA0 --env mqtt_host=192.168.1.173 --env mqtt_topic_prefix=ruuvi_test --env hass_autodiscovery_topic_prefix=homeassistant_test --env maxEntriesToAggregate=10 --env maxWaitSeconds=150 --env forwarding_mode=true -v /home/pi/ruuvi2mqtt/.config/test:/config ruuvi-service ",
     "unmount:local": "docker stop ruuvi-test && docker rm ruuvi-test"
   },
   "keywords": [],

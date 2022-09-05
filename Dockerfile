@@ -18,6 +18,7 @@ RUN npm install
 # RUN sudo setcap cap_net_raw+eip $(eval readlink -f `which node`)
 
 COPY *.js ./
+COPY forwarding_mode/ ./forwarding_mode/
 
 ENV config_folder="/config"
 
