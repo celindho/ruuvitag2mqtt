@@ -13,6 +13,15 @@ function publishRetain(topic, message) {
   mqtt_client.publish(topic, message, { retain: true });
 }
 
+function subscribe(topic) {
+  logger.info(`Subscribing to topic(s) '${topic}'.`);
+  mqtt_client.subscribe(topic);
+}
+
+function registerListener(messageCallback) {
+  mqtt_client.on("message", messageCallback);
+}
+
 function createMqttClient(mqtt_host, mqtt_port) {
   if (!mqtt_client) {
     logger.info("MQTT connecting to %s:%d.", mqtt_host, mqtt_port);
@@ -37,4 +46,6 @@ createMqttClient(settings.mqtt_host, settings.mqtt_port);
 module.exports = {
   publish: publish,
   publishRetain: publishRetain,
+  subscribe: subscribe,
+  registerListener: registerListener,
 };
