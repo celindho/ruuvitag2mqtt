@@ -5,7 +5,7 @@ const { logger, settings } = require("../globals");
 const mqtt = require("../mqtt");
 
 function handleRuuviTagDiscovery(mac) {
-  mqtt.publish(
+  mqtt.publishRetain(
     `${settings.mqtt_topic_prefix}/raw_forward/discovery/${mac}`,
     mac
   );
