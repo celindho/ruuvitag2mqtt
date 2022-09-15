@@ -14,7 +14,7 @@ function handleRuuviReading(mac, data) {
     reinitData(mac, true);
   }
 
-  valuemap[mac].push(data);
+  valuemap[mac][data.measurementSequenceNumber] = data;
 
   if (enoughtData(mac) || dataIsOverdue(mac)) {
     sendDataForTag(mac);
@@ -22,7 +22,7 @@ function handleRuuviReading(mac, data) {
 }
 
 function reinitData(mac, isFirstInit) {
-  valuemap[mac] = [];
+  valuemap[mac] = {};
   if (isFirstInit) {
     //allow for only 15 second aggregation for the first sample from a tag
     nextSendForMac[mac] = new Date(new Date().getTime() + 15 * 1000);
@@ -35,11 +35,11 @@ function reinitData(mac, isFirstInit) {
 }
 
 function enoughtData(mac) {
-  return valuemap[mac].length >= settings.maxEntriesToAggregate;
+  return Object.keys(valuemap[mac]).length >= settings.maxEntriesToAggregate;
 }
 
 function dataIsOverdue(mac) {
-  if (valuemap[mac].length == 0) return false;
+  if (Object.keys(valuemap[mac]).length == 0) return false;
 
   logger.debug(`Data for mac ${mac} is overdue.`);
   return new Date() > nextSendForMac[mac];
@@ -78,13 +78,13 @@ function getAveragedDataForTag(mac) {
   var battery = 0;
   var rssi = 0;
 
-  history.forEach((data, index) => {
+  for (const [key, data] of Object.entries(history)) {
     temperature += data["temperature"];
     humidity += data["humidity"];
     pressure += data["pressure"];
     battery += data["battery"];
     rssi += data["rssi"];
-  });
+  }
 
   return {
     entry_count: history.length,
