@@ -70,7 +70,7 @@ function sendDataForTag(mac) {
 }
 
 function getAveragedDataForTag(mac) {
-  var history = valuemap[mac];
+  var history = Object.values(valuemap[mac]);
 
   var temperature = 0;
   var humidity = 0;
@@ -78,13 +78,13 @@ function getAveragedDataForTag(mac) {
   var battery = 0;
   var rssi = 0;
 
-  for (const [key, data] of Object.entries(history)) {
+  history.forEach((data, index) => {
     temperature += data["temperature"];
     humidity += data["humidity"];
     pressure += data["pressure"];
     battery += data["battery"];
     rssi += data["rssi"];
-  }
+  });
 
   return {
     entry_count: history.length,
