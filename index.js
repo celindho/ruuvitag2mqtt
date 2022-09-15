@@ -14,7 +14,6 @@ if (settings.useDummyData == "true") {
 logger.info("Starting the Ruuvi2MQTT converter.");
 logger.info("Settings: " + JSON.stringify(settings));
 
-
 if (settings.forwarding_mode) {
   var handleRuuviDiscovery = require("./forwarding_mode/discoveryhandler");
   var handleRuuviReading =
@@ -23,8 +22,10 @@ if (settings.forwarding_mode) {
   listener.start(handleRuuviReading, handleRuuviDiscovery);
 } else {
   var handleRuuviDiscovery = require("./default_mode/discoveryhandler");
-  var {handleRuuviReading, checkAndSendOveragedData} =
-    require("./default_mode/devicemessagehandler");
+  var {
+    handleRuuviReading,
+    checkAndSendOveragedData,
+  } = require("./default_mode/devicemessagehandler");
 
   listener.start(handleRuuviReading, handleRuuviDiscovery);
 
