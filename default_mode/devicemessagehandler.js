@@ -1,10 +1,10 @@
 "use strict";
 
-const { logger, settings } = require("./globals");
+const { logger, settings } = require("../globals");
 
-const deviceSettings = require("./devicesettings");
+const deviceSettings = require("../devicesettings");
 
-const mqtt = require("./mqtt");
+const mqtt = require("../mqtt");
 
 var valuemap = {};
 var nextSendForMac = {};

@@ -21,10 +21,10 @@ if (settings.forwarding_mode) {
   handleRuuviReading =
     require("./forwarding_mode/devicemessagehandler").handleRuuviReading;
 } else {
-  handleRuuviDiscovery = require("./discoveryhandler");
-  handleRuuviReading = require("./devicemessagehandler").handleRuuviReading;
+  handleRuuviDiscovery = require("./default_mode/discoveryhandler");
+  handleRuuviReading = require("./default_mode/devicemessagehandler").handleRuuviReading;
   checkAndSendOveragedData =
-    require("./devicemessagehandler").checkAndSendOveragedData;
+    require("./default_mode/devicemessagehandler").checkAndSendOveragedData;
 }
 
 listener.start(handleRuuviReading, handleRuuviDiscovery);
