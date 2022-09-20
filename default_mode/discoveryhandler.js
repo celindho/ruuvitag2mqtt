@@ -65,6 +65,12 @@ function handleRuuviTagDiscovery(mac) {
         entityCategory: "diagnostic",
         expire_after: settings.maxWaitSeconds * 2,
       },
+      {
+        name: "Strongest Relay",
+        valueTemplate: "{{ value_json.strongesReceiver }}",
+        entityCategory: "diagnostic",
+        expire_after: settings.maxWaitSeconds * 2,
+      },
     ];
 
     sensors.forEach((attributes) => {
