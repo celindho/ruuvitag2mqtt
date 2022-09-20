@@ -19,6 +19,7 @@ RUN npm install
 
 COPY *.js ./
 COPY forwarding_mode/ ./forwarding_mode/
+COPY default_mode/ ./default_mode/
 
 ENV config_folder="/config"
 
