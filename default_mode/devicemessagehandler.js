@@ -108,7 +108,7 @@ function getAveragedDataForTag(mac) {
       accumulator.sum += element;
     });
     accumulator.count = nodesRssi[node].length;
-    accumulator.avg = accumulator.sum / accumulator.count;
+    accumulator.avg = Math.round(accumulator.sum / accumulator.count);
 
     if (!bestNodeRssi || accumulator.avg > bestNodeRssi) {
       bestNodeRssi = accumulator.avg;
