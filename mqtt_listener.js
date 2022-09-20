@@ -17,7 +17,7 @@ function start(handleRuuviReading, handleRuuviDiscovery) {
       const mac = /[^\/]+$/gm.exec(topic)[0];
       handleRuuviReading(mac, JSON.parse(payload.toString()));
     } else if (discoveryRegEx.test(topic)) {
-      const mac = payload;
+      const mac = payload.toString();
       handleRuuviDiscovery(mac);
     }
   }
