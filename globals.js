@@ -68,6 +68,11 @@ function getSettings() {
         defaultValue: process.cwd() + "/.config",
       },
       {
+        name: "node_name",
+        type: String,
+        defaultValue: require("os").hostname(),
+      },
+      {
         name: "forwarding_mode",
         alias: "f",
         type: Boolean,
@@ -88,6 +93,7 @@ function getSettings() {
   }
   return settings;
 }
+
 
 module.exports = {
   logger: getLogger(),
