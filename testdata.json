@@ -18,6 +18,25 @@
     }
   },
   {
+    "tagid": "C2:2F:DA:0E:D1:60",
+    "data": {
+      "dataFormat": 5,
+      "rssi": -30,
+      "temperature": 23.67,
+      "humidity": 30.9625,
+      "pressure": 99455,
+      "accelerationX": -40,
+      "accelerationY": 28,
+      "accelerationZ": 1024,
+      "battery": 3037,
+      "relayNode": "Foobar",
+      "txPower": 4,
+      "movementCounter": 180,
+      "measurementSequenceNumber": 45069,
+      "mac": "C2:2F:DA:0E:D1:60"
+    }
+  },
+  {
     "tagid": "F3:D6:1E:54:FA:B6",
     "data": {
       "dataFormat": 3,

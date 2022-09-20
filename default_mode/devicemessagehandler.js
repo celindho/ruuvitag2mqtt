@@ -14,7 +14,14 @@ function handleRuuviReading(mac, data) {
     reinitData(mac, true);
   }
 
-  valuemap[mac][data.measurementSequenceNumber] = data;
+  var relayNode = data.relayNode || "default";
+
+  if (!valuemap[mac][data.measurementSequenceNumber]) {
+    valuemap[mac][data.measurementSequenceNumber] = data;
+    data.relayNodesRssi = {};
+  }
+  valuemap[mac][data.measurementSequenceNumber].relayNodesRssi[relayNode] =
+    data.rssi;
 
   if (enoughtData(mac) || dataIsOverdue(mac)) {
     sendDataForTag(mac);
@@ -76,14 +83,37 @@ function getAveragedDataForTag(mac) {
   var humidity = 0;
   var pressure = 0;
   var battery = 0;
-  var rssi = 0;
+  var bestNodeRssi;
+  var bestNode;
+  var nodesRssi = {};
 
   history.forEach((data, index) => {
     temperature += data["temperature"];
     humidity += data["humidity"];
     pressure += data["pressure"];
     battery += data["battery"];
-    rssi += data["rssi"];
+    Object.keys(data["relayNodesRssi"]).forEach((node) => {
+      if (!nodesRssi[node]) {
+        nodesRssi[node] = [];
+      }
+      nodesRssi[node].push(data["relayNodesRssi"][node]);
+    });
+  });
+
+  var nodesRssiAvg = {};
+  Object.keys(nodesRssi).forEach((node) => {
+    var accumulator = { sum: 0 };
+    nodesRssiAvg[node] = accumulator;
+    nodesRssi[node].forEach((element) => {
+      accumulator.sum += element;
+    });
+    accumulator.count = nodesRssi[node].length;
+    accumulator.avg = Math.round(accumulator.sum / accumulator.count);
+
+    if (!bestNodeRssi || accumulator.avg > bestNodeRssi) {
+      bestNodeRssi = accumulator.avg;
+      bestNode = node;
+    }
   });
 
   return {
@@ -94,7 +124,8 @@ function getAveragedDataForTag(mac) {
     battery: Math.round(
       ((battery / history.length / 1000 - 1.8) / (3.6 - 1.8)) * 100
     ),
-    rssi: Math.round(rssi / history.length),
+    rssi: bestNodeRssi,
+    strongesReceiver: bestNode,
     mac: mac,
   };
 }
