@@ -1,10 +1,10 @@
 "use strict";
 
-const { logger, settings } = require("./globals");
+const { logger, settings } = require("../globals");
 
-const mqtt = require("./mqtt");
+const mqtt = require("../mqtt");
 
-const deviceSettings = require("./devicesettings");
+const deviceSettings = require("../devicesettings");
 
 function handleRuuviTagDiscovery(mac) {
   if (!settings.hass_autodiscovery_disable) {

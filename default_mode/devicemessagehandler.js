@@ -1,10 +1,10 @@
 "use strict";
 
-const { logger, settings } = require("./globals");
+const { logger, settings } = require("../globals");
 
-const deviceSettings = require("./devicesettings");
+const deviceSettings = require("../devicesettings");
 
-const mqtt = require("./mqtt");
+const mqtt = require("../mqtt");
 
 var valuemap = {};
 var nextSendForMac = {};
@@ -14,7 +14,7 @@ function handleRuuviReading(mac, data) {
     reinitData(mac, true);
   }
 
-  valuemap[mac].push(data);
+  valuemap[mac][data.measurementSequenceNumber] = data;
 
   if (enoughtData(mac) || dataIsOverdue(mac)) {
     sendDataForTag(mac);
@@ -22,7 +22,7 @@ function handleRuuviReading(mac, data) {
 }
 
 function reinitData(mac, isFirstInit) {
-  valuemap[mac] = [];
+  valuemap[mac] = {};
   if (isFirstInit) {
     //allow for only 15 second aggregation for the first sample from a tag
     nextSendForMac[mac] = new Date(new Date().getTime() + 15 * 1000);
@@ -35,11 +35,11 @@ function reinitData(mac, isFirstInit) {
 }
 
 function enoughtData(mac) {
-  return valuemap[mac].length >= settings.maxEntriesToAggregate;
+  return Object.keys(valuemap[mac]).length >= settings.maxEntriesToAggregate;
 }
 
 function dataIsOverdue(mac) {
-  if (valuemap[mac].length == 0) return false;
+  if (Object.keys(valuemap[mac]).length == 0) return false;
 
   logger.debug(`Data for mac ${mac} is overdue.`);
   return new Date() > nextSendForMac[mac];
@@ -70,7 +70,7 @@ function sendDataForTag(mac) {
 }
 
 function getAveragedDataForTag(mac) {
-  var history = valuemap[mac];
+  var history = Object.values(valuemap[mac]);
 
   var temperature = 0;
   var humidity = 0;
