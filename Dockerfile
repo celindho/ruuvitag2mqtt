@@ -3,10 +3,10 @@ FROM arm32v7/node:14.19.0
 RUN apt-get update \
     && apt-get upgrade -y \
     && apt-get install -y --no-install-recommends \
-        bluetooth \
-        bluez \
-        libbluetooth-dev \
-        libudev-dev
+    bluetooth \
+    bluez \
+    libbluetooth-dev \
+    libudev-dev
 
 WORKDIR /app
 
@@ -20,6 +20,7 @@ RUN npm install
 COPY *.js ./
 COPY forwarding_mode/ ./forwarding_mode/
 COPY default_mode/ ./default_mode/
+COPY bridge_status/ ./bridge_status/
 
 ENV config_folder="/config"
 
