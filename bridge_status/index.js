@@ -9,7 +9,7 @@ const removeAccents = require("remove-accents");
 function getEscapedBridgeName() {
   return removeAccents(settings.node_name)
     .toLowerCase()
-    .replace(/[^a-z ]/g, "")
+    .replace(/[^a-z0-9 ]/g, "")
     .replace(/ +/g, "_");
 }
 
