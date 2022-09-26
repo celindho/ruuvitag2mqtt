@@ -73,6 +73,7 @@ function bridgeDiscovery() {
 }
 
 var bluetoothMsgCounter;
+var startupTimestamp;
 
 function registerBTMessage(mac) {
   if (!bluetoothMsgCounter[mac]) {
@@ -107,7 +108,7 @@ function sendInitMessages() {
     settings.mqtt_topic_prefix
   }/broker/${getEscapedBridgeName()}/startup`;
   var startup = {
-    started: new Date().toISOString(),
+    started: startupTimestamp,
     mode: settings.forwarding_mode ? "MQTT Forwarding" : "Central Aggregator",
   };
 
@@ -116,8 +117,9 @@ function sendInitMessages() {
 
 function init() {
   bluetoothMsgCounter = {};
+  startupTimestamp = new Date().toISOString();
   bridgeDiscovery();
-  sendInitMessages();
+  setInterval(sendInitMessages, Math.ceil(60 * 1000));
   setInterval(sendHealthMessages, Math.ceil(60 * 1000));
 }
 
