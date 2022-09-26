@@ -10,6 +10,8 @@ function handleRuuviTagDiscovery(mac) {
   if (!settings.hass_autodiscovery_disable) {
     var mac_compact = mac.replace(/:/g, "").toLowerCase();
 
+    var bridgeName = settings.node_name;
+
     const device = {
       connections: [["mac", mac]],
       identifiers: [`RuuviTag ${mac}`],
@@ -17,7 +19,7 @@ function handleRuuviTagDiscovery(mac) {
       model: "RuuviTag",
       name: deviceSettings.getNameByMac(mac),
       suggested_area: deviceSettings.getAreaByMac(mac),
-      via_device: "Docker Ruuvi Service",
+      via_device: `RuuviTag to MQTT bridge ${bridgeName}`,
     };
 
     var sensors = [
