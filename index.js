@@ -4,6 +4,8 @@ const { logger, settings } = require("./globals");
 
 const mqtt = require("./mqtt");
 
+const bridgeStatus = require("./bridge_status");
+
 var listener;
 if (settings.useDummyData == "true") {
   listener = require("./dummy_listener");
@@ -13,6 +15,8 @@ if (settings.useDummyData == "true") {
 
 logger.info("Starting the Ruuvi2MQTT converter.");
 logger.info("Settings: " + JSON.stringify(settings));
+
+bridgeStatus.init();
 
 if (settings.forwarding_mode) {
   var handleRuuviDiscovery = require("./forwarding_mode/discoveryhandler");
@@ -36,10 +40,5 @@ if (settings.forwarding_mode) {
     Math.ceil((settings.maxWaitSeconds * 1000) / 10)
   );
 }
-
-mqtt.publish(
-  `${settings.mqtt_topic_prefix}/broker/status`,
-  "Ruuvi2MQTT started."
-);
 
 logger.info("Started the Ruuvi2MQTT converter.");
