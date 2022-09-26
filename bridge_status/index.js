@@ -9,7 +9,7 @@ const removeAccents = require("remove-accents");
 function getEscapedBridgeName() {
   return removeAccents(settings.node_name)
     .toLowerCase()
-    .replace(/[^a-z ]/g, "")
+    .replace(/[^a-z0-9 ]/g, "")
     .replace(/ +/g, "_");
 }
 
@@ -43,6 +43,7 @@ function bridgeDiscovery() {
       unique_id: `sensor_mqtt_ruuvi_bridge_${escapedBridgeName}_mode`,
       state_topic: `${settings.mqtt_topic_prefix}/broker/${escapedBridgeName}/startup`,
       value_template: "{{ value_json.mode }}",
+      icon: "mdi:access-point-network",
     },
     {
       name: "Devices connected",
@@ -52,6 +53,7 @@ function bridgeDiscovery() {
       unique_id: `sensor_mqtt_ruuvi_bridge_${escapedBridgeName}_devices`,
       state_topic: `${settings.mqtt_topic_prefix}/broker/${escapedBridgeName}/status`,
       value_template: "{{ value_json.devices }}",
+      icon: "mdi:bluetooth-connect",
     },
     {
       name: "BT messages processed",
@@ -62,6 +64,7 @@ function bridgeDiscovery() {
       unique_id: `sensor_mqtt_ruuvi_bridge_${escapedBridgeName}_messages`,
       state_topic: `${settings.mqtt_topic_prefix}/broker/${escapedBridgeName}/status`,
       value_template: "{{ value_json.messages }}",
+      icon: "mdi:message",
     },
   ];
 
@@ -73,6 +76,7 @@ function bridgeDiscovery() {
 }
 
 var bluetoothMsgCounter;
+var startupTimestamp;
 
 function registerBTMessage(mac) {
   if (!bluetoothMsgCounter[mac]) {
@@ -107,7 +111,7 @@ function sendInitMessages() {
     settings.mqtt_topic_prefix
   }/broker/${getEscapedBridgeName()}/startup`;
   var startup = {
-    started: new Date().toISOString(),
+    started: startupTimestamp,
     mode: settings.forwarding_mode ? "MQTT Forwarding" : "Central Aggregator",
   };
 
@@ -116,8 +120,10 @@ function sendInitMessages() {
 
 function init() {
   bluetoothMsgCounter = {};
+  startupTimestamp = new Date().toISOString();
   bridgeDiscovery();
   sendInitMessages();
+  setInterval(sendInitMessages, Math.ceil(60 * 1000));
   setInterval(sendHealthMessages, Math.ceil(60 * 1000));
 }
 
