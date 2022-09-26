@@ -43,6 +43,7 @@ function bridgeDiscovery() {
       unique_id: `sensor_mqtt_ruuvi_bridge_${escapedBridgeName}_mode`,
       state_topic: `${settings.mqtt_topic_prefix}/broker/${escapedBridgeName}/startup`,
       value_template: "{{ value_json.mode }}",
+      icon: "mdi:access-point-network",
     },
     {
       name: "Devices connected",
@@ -52,6 +53,7 @@ function bridgeDiscovery() {
       unique_id: `sensor_mqtt_ruuvi_bridge_${escapedBridgeName}_devices`,
       state_topic: `${settings.mqtt_topic_prefix}/broker/${escapedBridgeName}/status`,
       value_template: "{{ value_json.devices }}",
+      icon: "mdi:bluetooth-connect",
     },
     {
       name: "BT messages processed",
@@ -62,6 +64,7 @@ function bridgeDiscovery() {
       unique_id: `sensor_mqtt_ruuvi_bridge_${escapedBridgeName}_messages`,
       state_topic: `${settings.mqtt_topic_prefix}/broker/${escapedBridgeName}/status`,
       value_template: "{{ value_json.messages }}",
+      icon: "mdi:message",
     },
   ];
 
