@@ -16,7 +16,7 @@ function getEscapedBridgeName() {
 function bridgeDiscovery() {
   var bridgeName = settings.node_name;
   var escapedBridgeName = getEscapedBridgeName();
-  var buildVersion = "undef";
+  var buildVersion = "0.9";
 
   const bridgeDevice = {
     identifiers: [`RuuviTag to MQTT bridge ${bridgeName}`],
@@ -67,6 +67,7 @@ function bridgeDiscovery() {
 
   sensors.forEach((sensor) => {
     var discoveryTopic = `${settings.hass_autodiscovery_topic_prefix}/sensor/${sensor.unique_id}/config`;
+    sensor.device = bridgeDevice;
     mqtt.publishRetain(discoveryTopic, JSON.stringify(sensor));
   });
 }
