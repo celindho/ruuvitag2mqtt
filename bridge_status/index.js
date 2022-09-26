@@ -122,6 +122,7 @@ function init() {
   bluetoothMsgCounter = {};
   startupTimestamp = new Date().toISOString();
   bridgeDiscovery();
+  sendInitMessages();
   setInterval(sendInitMessages, Math.ceil(60 * 1000));
   setInterval(sendHealthMessages, Math.ceil(60 * 1000));
 }
