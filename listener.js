@@ -4,6 +4,8 @@ const ruuvi = require("node-ruuvitag");
 
 const logger = require("./globals").logger;
 
+const bridgeStatus = require("./bridge_status");
+
 function start(dataCallback, discoveryCallback) {
   ruuvi.on("found", (tag) => {
     logger.info("Found tag: " + JSON.stringify(tag));
@@ -11,6 +13,7 @@ function start(dataCallback, discoveryCallback) {
       discoveryCallback(convertIdToMac(tag.id));
     }
     tag.on("updated", (data) => {
+      bridgeStatus.registerBTMessage(convertIdToMac(tag.id));
       dataCallback(convertIdToMac(tag.id), data);
     });
   });
