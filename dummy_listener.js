@@ -2,6 +2,8 @@
 const logger = require("./globals").logger;
 const fs = require("fs");
 
+const bridgeStatus = require("./bridge_status");
+
 function start(dataCallback, discoveryCallback) {
   logger.info("Generating dummy callbacks.");
 
@@ -15,6 +17,7 @@ function start(dataCallback, discoveryCallback) {
         tags.push(entry.tagid);
         discoveryCallback(entry.tagid);
       }
+      bridgeStatus.registerBTMessage(entry.tagid);
       dataCallback(entry.tagid, entry.data);
     });
   } catch (err) {
