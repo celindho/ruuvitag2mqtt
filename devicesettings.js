@@ -6,6 +6,12 @@ const deviceStore = require("data-store")("ruuvitags", {
   path: settings.config_folder + "/devices.json",
 });
 
+function getDiscoveryEnabled(mac) {
+  var deviceInfo = getByMac(mac);
+  return !!deviceInfo.name;
+
+}
+
 function getByMac(mac) {
   if (!deviceStore.has(mac)) {
     deviceStore.set(mac, { name: null, area: null });
@@ -40,6 +46,7 @@ function getTasmotaTemperatureTopicsByMac(mac) {
 }
 
 module.exports = {
+  getDiscoveryEnabled: getDiscoveryEnabled,
   getNameByMac: getNameByMac,
   getAreaByMac: getAreaByMac,
   getTopicForMac: getTopicForMac,

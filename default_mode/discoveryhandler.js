@@ -7,7 +7,7 @@ const mqtt = require("../mqtt");
 const deviceSettings = require("../devicesettings");
 
 function handleRuuviTagDiscovery(mac) {
-  if (!settings.hass_autodiscovery_disable) {
+  if (!settings.hass_autodiscovery_disable && deviceSettings.getDiscoveryEnabled(mac)) {
     var mac_compact = mac.replace(/:/g, "").toLowerCase();
 
     var bridgeName = settings.node_name;
